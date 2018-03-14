@@ -1,0 +1,10 @@
+{
+   "extDesc": {
+      "description": "Extension Description",
+      "message": "Search and access popular converter quick links instantly from your new tab page!"
+   },
+   "extName": {
+      "description": "Extension Name",
+      "message": "My Quick Converter"
+   }
+}

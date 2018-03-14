@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Search Encrypt Settings</title>
+    <meta charset="utf-8" />
+    <style>
+    body,
+    html {
+        background: #eee;
+    }
+    /* Prevent text and blocks selection */
+    
+    input.labelauty + label::selection {
+        background-color: rgba(255, 255, 255, 0);
+    }
+    
+    input.labelauty + label::-moz-selection {
+        background-color: rgba(255, 255, 255, 0);
+    }
+    /* Hide original checkboxes. They are ugly! */
+    
+    input.labelauty {
+        display: none !important;
+    }
+    /*
+        * Let's style the input
+        * Feel free to work with it as you wish!
+        */
+    
+    input.labelauty + label {
+        display: block;
+        font-size: 11px;
+        padding: 10px;
+        background-color: #efefef;
+        color: #b3b3b3;
+        cursor: pointer;
+        border-radius: 3px 3px 3px 3px;
+        -moz-border-radius: 3px 3px 3px 3px;
+        -webkit-border-radius: 3px 3px 3px 3px;
+        transition: background-color 0.25s;
+        -moz-transition: background-color 0.25s;
+        -webkit-transition: background-color 0.25s;
+        -o-transition: background-color 0.25s;
+        -moz-user-select: none;
+        -khtml-user-select: none;
+        -webkit-user-select: none;
+        -o-user-select: none;
+    }
+    /* Stylish text inside label */
+    
+    input.labelauty + label > span.labelauty-unchecked,
+    input.labelauty + label > span.labelauty-checked {
+        display: inline-block;
+        line-height: 16px;
+        vertical-align: bottom;
+    }
+    /* Stylish icons inside label */
+    
+    input.labelauty + label > span.labelauty-unchecked-image,
+    input.labelauty + label > span.labelauty-checked-image {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        vertical-align: bottom;
+        background-repeat: no-repeat;
+        background-position: left center;
+        transition: background-image 0.5s linear;
+        -moz-transition: background-image 0.5s linear;
+        -webkit-transition: background-image 0.5s linear;
+        -o-transition: background-image 0.5s linear;
+    }
+    /* When there's a label, add a little margin to the left */
+    
+    input.labelauty + label > span.labelauty-unchecked-image + span.labelauty-unchecked,
+    input.labelauty + label > span.labelauty-checked-image + span.labelauty-checked {
+        margin-left: 7px;
+    }
+    /* When not Checked */
+    
+    input.labelauty:not(:checked):not([disabled]) + label:hover {
+        background-color: #eaeaea;
+        color: #a7a7a7;
+    }
+    
+    input.labelauty:not(:checked) + label > span.labelauty-checked-image {
+        display: none;
+    }
+    
+    input.labelauty:not(:checked) + label > span.labelauty-checked {
+        display: none;
+    }
+    /* When Checked */
+    
+    input.labelauty:checked + label {
+        background-color: #3498db;
+        color: #ffffff;
+    }
+    
+    input.labelauty:checked:not([disabled]) + label:hover {
+        background-color: #72c5fd;
+    }
+    
+    input.labelauty:checked + label > span.labelauty-unchecked-image {
+        display: none;
+    }
+    
+    input.labelauty:checked + label > span.labelauty-unchecked {
+        display: none;
+    }
+    
+    input.labelauty:checked + label > span.labelauty-checked {
+        display: inline-block;
+    }
+    
+    input.labelauty.no-label:checked + label > span.labelauty-checked {
+        display: block;
+    }
+    /* When Disabled */
+    
+    input.labelauty[disabled] + label {
+        opacity: 0.5;
+    }
+    /* Add a background to (un)checked images */
+    
+    input.labelauty + label > span.labelauty-unchecked-image {
+        background-image: url(img/se/input-unchecked.png );
+    }
+    
+    input.labelauty + label > span.labelauty-checked-image {
+        background-image: url(img/se/input-checked.png );
+    }
+    
+    .button {
+        display: block;
+        background: #eee;
+        padding: 8px 16px;
+        text-shadow: 0 1px 0 #fff;
+        color: #000;
+        font-size: 14px;
+        margin-bottom: 7px;
+        border: 1px solid #333;
+        text-decoration: none;
+    }
+    
+    .button:hover {
+        background: #ccc;
+    }
+    
+    .form-group {
+        padding: 5px 0;
+    }
+    
+    .settings-form {
+        background: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        min-width: 350px;
+        transform: translate(-50%, -50%);
+        -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.45);
+        -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.45);
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.45);
+        padding: 20px;
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 15px;
+    }
+    
+    img.logo {
+        margin: 0 auto 10px auto;
+        height: 60px;
+        display: block;
+    }
+    
+    h2 {
+        color: #777;
+        font-weight: normal;
+        font-size: 24px;
+        text-align: center;
+        margin: 10px 0 20px 0;
+    }
+    
+    .tr {
+        text-align: right;
+        width: 50%;
+        float: right;
+        padding-top: 20px;
+    }
+    
+    .tl {
+        text-align: left;
+        width: 100%;
+        float: left;
+        padding-top: 20px;
+    }
+    
+    .enableDisable {
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        padding: 13px !important;
+        display: inline-block;
+        cursor: pointer;
+        color: #ffffff;
+        font-family: Arial;
+        font-size: 13px;
+        border-radius: 3px;
+    }
+    
+    .disabled {
+        background-image: -webkit-linear-gradient(top, #d9534f 0, #c12e2a 100%) !important;
+        background-image: -o-linear-gradient(top, #d9534f 0, #c12e2a 100%) !important;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#d9534f), to(#c12e2a)) !important;
+        background-image: linear-gradient(to bottom, #d9534f 0, #c12e2a 100%) !important;
+        filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffd9534f', endColorstr='#ffc12e2a', GradientType=0) !important;
+        filter: progid: DXImageTransform.Microsoft.gradient(enabled=false) !important;
+        background-repeat: repeat-x !important;
+        border-color: #b92c28 !important;
+    }
+    
+    .enabled {
+        background-image: -webkit-linear-gradient(top, #5cb85c 0, #419641 100%) !important;
+        background-image: -o-linear-gradient(top, #5cb85c 0, #419641 100%) !important;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(#5cb85c), to(#419641)) !important;
+        background-image: linear-gradient(to bottom, #5cb85c 0, #419641 100%) !important;
+        filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ff5cb85c', endColorstr='#ff419641', GradientType=0) !important;
+        filter: progid: DXImageTransform.Microsoft.gradient(enabled=false) !important;
+        background-repeat: repeat-x !important;
+        border-color: #3e8f3e !important;
+    }
+    
+    .enabled:hover {
+        background-color: #419641 !important;
+        background-position: 0 -15px !important;
+    }
+    
+    .disabled:hover {
+        background-color: #c12e2a !important;
+        background-position: 0 -15px !important;
+    }
+    
+    #savedMsg {
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#61c261+1,58aa58+100 */
+        background: #61c261;
+        /* Old browsers */
+        background: -moz-linear-gradient(top, #61c261 1%, #58aa58 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(top, #61c261 1%, #58aa58 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to bottom, #61c261 1%, #58aa58 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#61c261', endColorstr='#58aa58', GradientType=0);
+        /* IE6-9 */
+        padding: 7px 15px 10px 15px;
+        border-radius: 7px;
+        border: 1px solid #4E974E;
+        text-shadow: 0 -1px 0 rgba(0, 0, 0, .25);
+        color: #fff;
+    }
+    
+    .buttonSave {
+        -moz-box-shadow: inset 0px 1px 0px 0px #54a3f7;
+        -webkit-box-shadow: inset 0px 1px 0px 0px #54a3f7;
+        box-shadow: inset 0px 1px 0px 0px #54a3f7;
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #007dc1), color-stop(1, #0061a7));
+        background: -moz-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+        background: -webkit-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+        background: -o-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+        background: -ms-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+        background: linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+        filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#007dc1', endColorstr='#0061a7', GradientType=0);
+        background-color: #007dc1;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        border-radius: 3px;
+        border: 1px solid #124d77;
+        display: inline-block;
+        cursor: pointer;
+        color: #ffffff;
+        font-family: Arial;
+        font-size: 13px;
+        padding: 12px 29px;
+        text-decoration: none;
+        text-shadow: 0px 1px 0px #154682;
+    }
+    
+    .buttonSave:hover {
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0061a7), color-stop(1, #007dc1));
+        background: -moz-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+        background: -webkit-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+        background: -o-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+        background: -ms-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+        background: linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+        filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#0061a7', endColorstr='#007dc1', GradientType=0);
+        background-color: #0061a7;
+    }
+    
+    .buttonSave:active {
+        position: relative;
+        top: 1px;
+    }
+
+    .restoreAll {
+        margin-top:50px;
+        text-align:center;
+        font-weight:bold;
+        color: #4475c8;
+        font-size:18px;
+    }
+    </style>
+</head>
+
+<body>
+    <form class="settings-form">
+        <img id='topLogo' src="https://www.searchencrypt.com/static/images/small-logo" class="logo" />
+        <h2>Configure Search Encrypt</h2>
+        <div>
+            <label id="savedMsg" style="display:none; font-size:medium;">Settings Saved</label>
+            <div class="form-group">
+                <label for="EnableGoogle">
+                    <input type="checkbox" id="EnableGoogle" data-labelauty="Enable Google Search Redirect" name="EnableGoogle" value="true" checked="checked" />
+                </label>
+            </div>
+            <div class="form-group">
+                <label for="EnableBing">
+                    <input type="checkbox" id="EnableBing" name="EnableBing" data-labelauty="Enable Bing Search Redirect" value="true" checked="checked" />
+                </label>
+            </div>
+            <div class="form-group">
+                <label for="EnableAdditional">
+                    <input type="checkbox" id="EnableAdditional" name="EnableAdditional" data-labelauty="Enable Additional Search Engine Redirects" value="true" checked="checked" />
+                </label>
+            </div>
+        </div>
+        <div class="tl">
+            <a href="#" class="enableDisable" id="enableDisable">Disable Search Encrypt</a>
+        </div>
+        <div class="tr">
+            <input type="button" id="savesettings" class="buttonSave" style="display:none;" value="Save Settings" />
+        </div>
+        <div style="clear:both;padding-top:30px;">
+            <a href="#" class="restoreAll" id="restoreAll">Restore All Search Encrypt Settings to Default</a>
+        </div>
+       
+    </form>
+    <script src="lib/jquery.js"></script>
+    <script src="lib/label.js"></script>
+    <script src="lib/savesettings.js"></script>
+</body>
+
+</html>

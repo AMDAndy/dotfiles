@@ -1,0 +1,266 @@
+[03/13/18, 07:36:29:951] info: ╔═════════════════════════════════════════════════════════════════════════════════╗
+[03/13/18, 07:36:29:951] info: ║      Slack 3.1.0, linux 4.15.0-10-generic on x64 at 03/13/18, 07:36:29:949      ║
+[03/13/18, 07:36:29:951] info: ╚═════════════════════════════════════════════════════════════════════════════════╝
+[03/13/18, 07:36:30:025] info: Initializing local storage instance at path: /home/andy/.config/Slack/local-settings.json
+[03/13/18, 07:36:30:582] info: cld3::loadModule: loading cld3 module
+[03/13/18, 07:36:30:644] info: cld3Loader::loadModule: running environment is NODE
+[03/13/18, 07:36:30:645] info: cld3Loader::loadModule: constructed module object for runtime
+[03/13/18, 07:36:30:740] info: cld3Loader::initializeRuntime: successfully initialized module
+[03/13/18, 07:36:30:740] info: cld3Loader::loadModule: initialized wasm binary Runtime
+[03/13/18, 07:36:30:743] warn: updateSpellcheckerLanguage: Tried to update language, but spellchecker not initialized
+[03/13/18, 07:36:30:744] info: SSBIntegration: Main window preload script loaded 1018.722621
+[03/13/18, 07:36:32:670] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "loaded",
+  "teamId": "T4AA7TJ1G"
+}
+[03/13/18, 07:36:32:674] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T4AA7TJ1G"
+}
+[03/13/18, 07:36:33:185] info: postLoadTaskSetup: Desktop client fully loaded
+{
+  "loadedTime": 31786.710178
+}
+[03/13/18, 07:36:33:444] info: Store: SELECT_CHANNEL C4ACUJ2HK
+[03/13/18, 07:36:33:444] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T4AA7TJ1G"
+}
+[03/13/18, 07:36:33:444] info: Store: UPDATE_SETTINGS
+{
+  "locale": "en-US"
+}
+[03/13/18, 07:36:33:445] info: Store: UPDATE_TEAM_THEME
+{
+  "teamId": "T4AA7TJ1G",
+  "theme": {
+    "active_item": "#4C9689",
+    "active_item_text": "#FFFFFF",
+    "active_presence": "#38978D",
+    "badge": "#EB4D5C",
+    "column_bg": "#4D394B",
+    "hover_item": "#3E313C",
+    "menu_bg": "#3E313C",
+    "text_color": "#FFFFFF"
+  }
+}
+[03/13/18, 07:36:33:446] info: Store: UPDATE_TEAM_ICONS
+{
+  "icons": {
+    "image_102": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-03-14/154728182087_c6b7bdcc833c499b1f4e_102.jpg",
+    "image_132": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-03-14/154728182087_c6b7bdcc833c499b1f4e_132.jpg",
+    "image_230": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-03-14/154728182087_c6b7bdcc833c499b1f4e_230.jpg",
+    "image_34": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-03-14/154728182087_c6b7bdcc833c499b1f4e_34.jpg",
+    "image_44": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-03-14/154728182087_c6b7bdcc833c499b1f4e_44.jpg",
+    "image_68": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-03-14/154728182087_c6b7bdcc833c499b1f4e_68.jpg",
+    "image_88": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-03-14/154728182087_c6b7bdcc833c499b1f4e_88.jpg",
+    "image_original": "https://slack-files2.s3-us-west-2.amazonaws.com/avatars/2017-03-14/154728182087_c6b7bdcc833c499b1f4e_original.jpg"
+  },
+  "teamId": "T4AA7TJ1G"
+}
+[03/13/18, 07:36:33:446] info: Store: UPDATE_TEAM_LOCALE
+{
+  "locale": "en-US",
+  "teamId": "T4AA7TJ1G"
+}
+[03/13/18, 07:36:33:446] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "webapp-loaded",
+  "teamId": "T4AA7TJ1G"
+}
+[03/13/18, 07:36:33:484] info: Store: STORE_API_TOKEN
+{
+  "teamId": "T4AA7TJ1G",
+  "token": "xoxs-⋯"
+}
+[03/13/18, 07:36:34:145] info: Store: SET_FULL_SCREEN
+[03/13/18, 07:36:34:296] info: Raw Locale list: ["C","C.UTF-8","en_AG","en_AG.utf8","en_AU.utf8","en_BW.utf8","en_CA.utf8","en_DK.utf8","en_GB.utf8","en_HK.utf8","en_IE.utf8","en_IL","en_IL.utf8","en_IN","en_IN.utf8","en_NG","en_NG.utf8","en_NZ.utf8","en_PH.utf8","en_SG.utf8","en_US.utf8","en_ZA.utf8","en_ZM","en_ZM.utf8","en_ZW.utf8","POSIX",""]
+[03/13/18, 07:36:34:296] info: Filtered Locale list: ["en_AG","en_AG","en_AU","en_BW","en_CA","en_DK","en_GB","en_HK","en_IE","en_IL","en_IL","en_IN","en_IN","en_NG","en_NG","en_NZ","en_PH","en_SG","en_US","en_ZA","en_ZM","en_ZM","en_ZW"]
+[03/13/18, 07:36:34:296] info: Counts: {"en":["en_AG","en_AG","en_AU","en_BW","en_CA","en_DK","en_GB","en_HK","en_IE","en_IL","en_IL","en_IN","en_IN","en_NG","en_NG","en_NZ","en_PH","en_SG","en_US","en_ZA","en_ZM","en_ZM","en_ZW"]}
+[03/13/18, 07:36:34:297] info: Result: {"en":"en-US"}
+[03/13/18, 07:36:34:299] info: Requesting to load en-US, alternatives are ["en-US","en-US","en-US"]
+[03/13/18, 07:36:34:300] info: Loading dictionary for language en-US
+[03/13/18, 07:36:34:300] info: Actually downloading https://redirector.gvt1.com/edgedl/chrome/dict/en-us-7-1.bdic
+[03/13/18, 07:36:34:733] info: Setting current spellchecker to en-US, requested language was en-US
+[03/13/18, 07:36:34:733] info: Creating node-spellchecker instance
+[03/13/18, 07:36:34:736] info: Actually installing spell check provider to Electron
+[03/13/18, 07:36:34:960] info: Loading dictionary for language en-US
+[03/13/18, 07:36:34:960] info: Returning local copy: /home/andy/.config/Slack/dictionaries/en-US.bdic
+[03/13/18, 07:36:34:961] info: Setting current spellchecker to en-US, requested language was en-US
+[03/13/18, 07:36:35:074] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    2520,
+    62
+  ],
+  "size": [
+    840,
+    988
+  ]
+}
+[03/13/18, 07:36:47:128] info: Unloading spellchecker
+[03/13/18, 07:36:47:129] info: Unloading spellchecker
+[03/13/18, 07:36:47:131] info: Store: SET_FULL_SCREEN
+[03/13/18, 07:37:08:331] info: Restoring spellchecker
+[03/13/18, 07:37:08:331] info: Loading dictionary for language en-US
+[03/13/18, 07:37:08:332] info: Returning local copy: /home/andy/.config/Slack/dictionaries/en-US.bdic
+[03/13/18, 07:37:08:332] info: Store: SET_FULL_SCREEN
+[03/13/18, 07:37:08:353] info: Setting current spellchecker to en-US, requested language was en-US
+[03/13/18, 07:37:08:353] info: Creating node-spellchecker instance
+[03/13/18, 07:37:09:376] info: Unloading spellchecker
+[03/13/18, 07:37:09:377] info: Unloading spellchecker
+[03/13/18, 07:37:09:380] info: Store: SET_FULL_SCREEN
+[03/13/18, 07:37:09:866] info: Restoring spellchecker
+[03/13/18, 07:37:09:866] info: Loading dictionary for language en-US
+[03/13/18, 07:37:09:866] info: Returning local copy: /home/andy/.config/Slack/dictionaries/en-US.bdic
+[03/13/18, 07:37:09:868] info: Unloading spellchecker
+[03/13/18, 07:37:09:869] info: Restoring spellchecker
+[03/13/18, 07:37:09:869] info: Loading dictionary for language en-US
+[03/13/18, 07:37:09:870] info: Returning local copy: /home/andy/.config/Slack/dictionaries/en-US.bdic
+[03/13/18, 07:37:09:888] info: Store: SET_FULL_SCREEN
+[03/13/18, 07:37:09:890] info: Setting current spellchecker to en-US, requested language was en-US
+[03/13/18, 07:37:09:890] info: Creating node-spellchecker instance
+[03/13/18, 07:37:09:890] info: Setting current spellchecker to en-US, requested language was en-US
+[03/13/18, 07:37:10:866] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    2520,
+    62
+  ],
+  "size": [
+    840,
+    988
+  ]
+}
+[03/13/18, 07:37:43:607] info: Unloading spellchecker
+[03/13/18, 07:37:43:609] info: Unloading spellchecker
+[03/13/18, 07:37:43:631] info: Store: SET_FULL_SCREEN
+[03/13/18, 07:37:57:278] info: Restoring spellchecker
+[03/13/18, 07:37:57:279] info: Loading dictionary for language en-US
+[03/13/18, 07:37:57:279] info: Returning local copy: /home/andy/.config/Slack/dictionaries/en-US.bdic
+[03/13/18, 07:37:57:309] info: Unloading spellchecker
+[03/13/18, 07:37:57:310] info: Restoring spellchecker
+[03/13/18, 07:37:57:310] info: Loading dictionary for language en-US
+[03/13/18, 07:37:57:310] info: Returning local copy: /home/andy/.config/Slack/dictionaries/en-US.bdic
+[03/13/18, 07:37:57:330] info: Store: SET_FULL_SCREEN
+[03/13/18, 07:37:57:331] info: Unloading spellchecker
+[03/13/18, 07:37:57:333] info: Setting current spellchecker to en-US, requested language was en-US
+[03/13/18, 07:37:57:333] info: Creating node-spellchecker instance
+[03/13/18, 07:37:57:333] info: Setting current spellchecker to en-US, requested language was en-US
+[03/13/18, 07:38:07:081] info: Unloading spellchecker
+[03/13/18, 07:38:07:082] info: Unloading spellchecker
+[03/13/18, 07:38:07:083] info: Store: SET_FULL_SCREEN
+[03/13/18, 07:38:33:874] info: Restoring spellchecker
+[03/13/18, 07:38:33:874] info: Loading dictionary for language en-US
+[03/13/18, 07:38:33:875] info: Returning local copy: /home/andy/.config/Slack/dictionaries/en-US.bdic
+[03/13/18, 07:38:33:899] info: Unloading spellchecker
+[03/13/18, 07:38:33:899] info: Restoring spellchecker
+[03/13/18, 07:38:33:899] info: Loading dictionary for language en-US
+[03/13/18, 07:38:33:899] info: Returning local copy: /home/andy/.config/Slack/dictionaries/en-US.bdic
+[03/13/18, 07:38:33:915] info: Store: SET_FULL_SCREEN
+[03/13/18, 07:38:33:916] info: Unloading spellchecker
+[03/13/18, 07:38:33:929] info: Setting current spellchecker to en-US, requested language was en-US
+[03/13/18, 07:38:33:929] info: Creating node-spellchecker instance
+[03/13/18, 07:38:33:930] info: Setting current spellchecker to en-US, requested language was en-US
+[03/13/18, 07:38:44:002] info: Unloading spellchecker
+[03/13/18, 07:38:44:003] info: Unloading spellchecker
+[03/13/18, 07:38:44:004] info: Store: SET_FULL_SCREEN
+[03/13/18, 07:43:37:356] info: Store: SAVE_WINDOW_SETTINGS
+{
+  "isMaximized": false,
+  "position": [
+    2520,
+    66
+  ],
+  "size": [
+    840,
+    984
+  ]
+}
+[03/13/18, 07:45:00:770] info: Restoring spellchecker
+[03/13/18, 07:45:00:771] info: Loading dictionary for language en-US
+[03/13/18, 07:45:00:771] info: Returning local copy: /home/andy/.config/Slack/dictionaries/en-US.bdic
+[03/13/18, 07:45:00:802] info: Unloading spellchecker
+[03/13/18, 07:45:00:823] info: Unloading spellchecker
+[03/13/18, 07:45:00:824] info: Setting current spellchecker to en-US, requested language was en-US
+[03/13/18, 07:45:00:824] info: Creating node-spellchecker instance
+[03/13/18, 09:04:11:966] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T4AA7TJ1G-U4B16NXP1-59723e240d0e-512",
+  "channel": "D4B0W0R46",
+  "content": "[REDACTED]",
+  "id": "4Q50cJhW96PrW7x",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=D4B0W0R46&message=1520949851.000776&team=T4AA7TJ1G",
+  "msg": "1520949851.000776",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T4AA7TJ1G",
+  "title": "[REDACTED]"
+}
+[03/13/18, 09:05:24:950] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T4AA7TJ1G-U4B16NXP1-59723e240d0e-512",
+  "channel": "D4B0W0R46",
+  "content": "[REDACTED]",
+  "id": "k8y4Uki9qXZW5vL",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=D4B0W0R46&message=1520949924.000723&team=T4AA7TJ1G",
+  "msg": "1520949924.000723",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T4AA7TJ1G",
+  "title": "[REDACTED]"
+}
+[03/13/18, 09:09:35:704] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T4AA7TJ1G-U4ACYKFJ6-4e4ff2b01d7d-512",
+  "channel": "D4AFK958V",
+  "content": "[REDACTED]",
+  "id": "XL1OtBskZwROy7K",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=D4AFK958V&message=1520950175.000544&team=T4AA7TJ1G",
+  "msg": "1520950175.000544",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T4AA7TJ1G",
+  "title": "[REDACTED]"
+}
+[03/13/18, 09:13:19:255] info: Store: NEW_NOTIFICATION
+{
+  "avatarImage": "https://ca.slack-edge.com/T4AA7TJ1G-U4ACYKFJ6-4e4ff2b01d7d-512",
+  "channel": "D4AFK958V",
+  "content": "[REDACTED]",
+  "id": "gZr4UYt3LXQgGnV",
+  "imageUri": null,
+  "launchUri": "slack://channel?id=D4AFK958V&message=1520950399.000137&team=T4AA7TJ1G",
+  "msg": "1520950399.000137",
+  "silent": true,
+  "subtitle": "",
+  "teamId": "T4AA7TJ1G",
+  "title": "[REDACTED]"
+}
+[03/13/18, 14:32:47:730] error: Mar-13 14:32:47.730 T4AA7TJ1G SOCKET-MANAGER: Closing socket due to unknown error
+[03/13/18, 14:33:17:757] error: Mar-13 14:33:17.757 T4AA7TJ1G SOCKET-MANAGER: Closing socket due to unknown error
+[03/13/18, 14:33:47:776] error: Mar-13 14:33:47.776 T4AA7TJ1G SOCKET-MANAGER: Closing socket due to unknown error
+[03/13/18, 14:34:17:796] error: Mar-13 14:34:17.796 T4AA7TJ1G SOCKET-MANAGER: Closing socket due to unknown error
+[03/13/18, 14:34:47:816] error: Mar-13 14:34:47.815 T4AA7TJ1G SOCKET-MANAGER: Closing socket due to unknown error
+[03/13/18, 14:34:53:132] info: Store: UPSERT_WEB_CONTENTS
+{
+  "id": 3,
+  "state": "page-will-navigate",
+  "teamId": "T4AA7TJ1G"
+}
+[03/13/18, 14:34:53:134] info: Window is unloading, winssb is no longer accessible
+[03/13/18, 14:34:53:322] info: Store: UPDATE_SESSION_STATUS
+{
+  "hasValidSession": true,
+  "teamId": "T4AA7TJ1G"
+}

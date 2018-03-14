@@ -1,0 +1,362 @@
+{
+   "checksum": "6a5b602c723d3034fb837b87e42716d1",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13028768955125000",
+            "id": "9",
+            "meta_info": {
+               "last_visited_desktop": "13165333812895537"
+            },
+            "name": "reddit: the front page of the internet",
+            "sync_transaction_version": "10",
+            "type": "url",
+            "url": "http://www.reddit.com/"
+         }, {
+            "date_added": "13078103058122755",
+            "id": "10",
+            "name": "Bookmarks",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "chrome://bookmarks/"
+         }, {
+            "children": [ {
+               "date_added": "13092417195679448",
+               "id": "36",
+               "name": "Edit Query Rule",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://shop-auth.amd.com/de-de/_layouts/15/editqueryrule.aspx?level=site&SourceId=6f23f238%2Dfb0d%2D4c6e%2D893e%2D38a37ff47425&Id=8af015ca%2D380e%2D47fc%2D80fc%2D34a1c4fc711b"
+            }, {
+               "date_added": "13092417195679448",
+               "id": "37",
+               "name": "Edit Query Rule",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://shop-auth.amd.com/en-gb/_layouts/15/editqueryrule.aspx?level=site&SourceId=6f23f238%2Dfb0d%2D4c6e%2D893e%2D38a37ff47425&Id=27e08469%2De6cb%2D40b3%2D99b7%2D300d46e0ccdf"
+            }, {
+               "date_added": "13092417195680448",
+               "id": "38",
+               "name": "Edit Query Rule",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://shop-auth.amd.com/fr-fr/_layouts/15/editqueryrule.aspx?level=site&SourceId=6f23f238%2Dfb0d%2D4c6e%2D893e%2D38a37ff47425&Id=ccb0d16e%2Da38d%2D472f%2Da037%2D6b0acd51c700"
+            }, {
+               "date_added": "13092417195680448",
+               "id": "39",
+               "name": "Edit Query Rule",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://shop-auth.amd.com/en-us/_layouts/15/editqueryrule.aspx?level=site&SourceId=6f23f238%2Dfb0d%2D4c6e%2D893e%2D38a37ff47425&Id=f175ce78%2D8a74%2D4e38%2D8ca8%2Dd8f695f885b5"
+            } ],
+            "date_added": "13165304911485530",
+            "date_modified": "13165304911485530",
+            "id": "11",
+            "name": "Featured Query",
+            "sync_transaction_version": "1",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "12993883551822170",
+               "id": "25",
+               "meta_info": {
+                  "last_visited": "13165238217715416",
+                  "last_visited_desktop": "13165303877047827"
+               },
+               "name": "Dumbing of Age",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://www.dumbingofage.com/"
+            }, {
+               "date_added": "12992448304151113",
+               "id": "26",
+               "meta_info": {
+                  "last_visited": "13164811866888079",
+                  "last_visited_desktop": "13165159535200982"
+               },
+               "name": "Ménage à 3",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://www.menagea3.net/"
+            }, {
+               "date_added": "12992448304150113",
+               "id": "27",
+               "meta_info": {
+                  "last_visited": "13165325591625235",
+                  "last_visited_desktop": "13165069120526118"
+               },
+               "name": "Penny Arcade",
+               "sync_transaction_version": "10",
+               "type": "url",
+               "url": "http://penny-arcade.com/comic/"
+            }, {
+               "date_added": "13122076885425082",
+               "id": "28",
+               "meta_info": {
+                  "last_visited": "13165325586113338",
+                  "last_visited_desktop": "13165298247462448"
+               },
+               "name": "S*P and Other Comics",
+               "sync_transaction_version": "10",
+               "type": "url",
+               "url": "http://somethingpositive.net/"
+            }, {
+               "date_added": "13122076895195597",
+               "id": "29",
+               "meta_info": {
+                  "last_visited": "13165242740154233",
+                  "last_visited_desktop": "13165069050117940"
+               },
+               "name": "El Goonish Shive",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://www.egscomics.com/"
+            }, {
+               "date_added": "13122076929272597",
+               "id": "30",
+               "meta_info": {
+                  "last_visited": "13164811871984340",
+                  "last_visited_desktop": "13165327529613058"
+               },
+               "name": "Misfile",
+               "sync_transaction_version": "10",
+               "type": "url",
+               "url": "http://www.misfile.com/"
+            }, {
+               "date_added": "13122076980045597",
+               "id": "31",
+               "meta_info": {
+                  "last_visited": "13165296876448293",
+                  "last_visited_desktop": "13165293228833698"
+               },
+               "name": "Dangerously Chloe",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://www.dangerouslychloe.com/"
+            }, {
+               "date_added": "13122077000326597",
+               "id": "32",
+               "meta_info": {
+                  "last_visited": "13164459493303006",
+                  "last_visited_desktop": "13165293233446225"
+               },
+               "name": "Sandra on the Rocks",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://www.sandraontherocks.com/"
+            }, {
+               "date_added": "13122413110530523",
+               "id": "33",
+               "meta_info": {
+                  "last_visited": "13165325483700987",
+                  "last_visited_desktop": "13164693478349707"
+               },
+               "name": "Grrl Power",
+               "sync_transaction_version": "10",
+               "type": "url",
+               "url": "http://grrlpowercomic.com/"
+            }, {
+               "date_added": "13124134827557809",
+               "id": "34",
+               "meta_info": {
+                  "last_visited": "13164459518909118",
+                  "last_visited_desktop": "13165046012496932"
+               },
+               "name": "Think Before You Think",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://thinkbeforeyouthink.net/"
+            }, {
+               "date_added": "13124134887757809",
+               "id": "35",
+               "meta_info": {
+                  "last_visited": "13148626080355296",
+                  "last_visited_desktop": "13147803437062352"
+               },
+               "name": "Empowered",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://www.empoweredcomic.com/comic/"
+            } ],
+            "date_added": "13165304911485784",
+            "date_modified": "13165364985121227",
+            "id": "12",
+            "name": "Comics",
+            "sync_transaction_version": "1",
+            "type": "folder"
+         }, {
+            "date_added": "13123267191861476",
+            "id": "13",
+            "meta_info": {
+               "last_visited_desktop": "13165288719676462"
+            },
+            "name": "WWW Staging",
+            "sync_transaction_version": "7",
+            "type": "url",
+            "url": "http://wwwadmin_7171:8675309!@www-stage.amd.com/user/login"
+         }, {
+            "date_added": "13123267256437554",
+            "id": "14",
+            "meta_info": {
+               "last_visited_desktop": "13161998009482963"
+            },
+            "name": "WWW Dev",
+            "sync_transaction_version": "8",
+            "type": "url",
+            "url": "http://wwwadmin_7171:8675309!@www-dev.amd.com/user/login"
+         }, {
+            "date_added": "13124931447240431",
+            "id": "15",
+            "meta_info": {
+               "last_visited_desktop": "13160981561202790"
+            },
+            "name": "AMD Edit",
+            "sync_transaction_version": "9",
+            "type": "url",
+            "url": "https://wwwadmin_7171:8675309!@www-edit.amd.com/user/login"
+         }, {
+            "children": [ {
+               "date_added": "13152316473236194",
+               "id": "22",
+               "meta_info": {
+                  "last_visited_desktop": "13152316473237194"
+               },
+               "name": "How to render your images with image styles in Drupal 8 | Web Omelette",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "https://www.webomelette.com/how-render-your-images-image-styles-drupal-8"
+            }, {
+               "date_added": "13152316473237194",
+               "id": "23",
+               "meta_info": {
+                  "last_visited_desktop": "13152316473238194"
+               },
+               "name": "theming - Add image styles with images - Drupal Answers",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "https://drupal.stackexchange.com/questions/226101/add-image-styles-with-images"
+            }, {
+               "date_added": "13152316473238194",
+               "id": "24",
+               "meta_info": {
+                  "last_visited_desktop": "13152316473238194"
+               },
+               "name": "How to traverse up and down nested entities in Drupal 8 | LoopDuplicate",
+               "sync_transaction_version": "1",
+               "type": "url",
+               "url": "http://loopduplicate.com/content/how-to-traverse-up-and-down-nested-entities-in-drupal-8"
+            } ],
+            "date_added": "13165304911487030",
+            "date_modified": "13165304911487030",
+            "id": "16",
+            "name": "Drupal Huge Images",
+            "sync_transaction_version": "1",
+            "type": "folder"
+         }, {
+            "date_added": "13160763285266557",
+            "id": "17",
+            "name": "New Tab",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "chrome://newtab/"
+         }, {
+            "date_added": "13163616841157409",
+            "id": "18",
+            "meta_info": {
+               "last_visited_desktop": "13165283990199938"
+            },
+            "name": "Environments | Acquia",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://cloud.acquia.com/app/develop/applications/a338f419-8862-4b10-abc4-c8c861d3cdd4"
+         }, {
+            "date_added": "13164501078741479",
+            "id": "19",
+            "meta_info": {
+               "last_visited_desktop": "13165105473062340"
+            },
+            "name": "Home - Roblox",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://web.roblox.com/home"
+         }, {
+            "date_added": "13164501098646790",
+            "id": "20",
+            "meta_info": {
+               "last_visited_desktop": "13165118483973645"
+            },
+            "name": "(51) YouTube",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://www.youtube.com/"
+         }, {
+            "date_added": "13164947045676559",
+            "id": "21",
+            "meta_info": {
+               "last_visited_desktop": "13164947045677559"
+            },
+            "name": "Austin ISD",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://my.austinisd.org/secure/SecureCloudAccessProfile/FinishLogin.jsp"
+         } ],
+         "date_added": "13165304844680764",
+         "date_modified": "13165364985120869",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [ {
+            "date_added": "13150218896231628",
+            "id": "8",
+            "meta_info": {
+               "last_visited_desktop": "13157827558760946"
+            },
+            "name": "RV payment",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://paynow7.speedpay.com/bankofthewest/index.asp"
+         } ],
+         "date_added": "13165304844680773",
+         "date_modified": "13150218896231628",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "sync_transaction_version": "10",
+      "synced": {
+         "children": [ {
+            "date_added": "13085442988662877",
+            "id": "5",
+            "name": "Ultimate Texas Hold ’Em - Wizard of Odds",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://wizardofodds.com/games/ultimate-texas-hold-em/"
+         }, {
+            "date_added": "13062393947281693",
+            "id": "6",
+            "name": "Battle Cheats",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "http://nuggetbridge.com/articles/like-ability-capsule-1000w-0l-triple-maison-team-report/"
+         }, {
+            "date_added": "13152334383323589",
+            "id": "7",
+            "meta_info": {
+               "last_visited": "13152334383329643"
+            },
+            "name": "Listen to Today's Second date update had us a little confused | The Billy The Kidd Show | Podcasts | iHeartRadio",
+            "sync_transaction_version": "1",
+            "type": "url",
+            "url": "https://www.iheart.com/podcast/139-The-Billy-The-Kidd-Show-27551550/episode/todays-second-date-update-had-us-28547095/"
+         } ],
+         "date_added": "13165304844680776",
+         "date_modified": "13152334383323589",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

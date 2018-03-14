@@ -1,0 +1,1160 @@
+info: ╔═════════════════════════════════════════════════════════════════════════════════╗
+info: ║      Slack 3.1.0, linux 4.15.0-10-generic on x64 at 03/13/18, 07:36:29:174      ║
+info: ╚═════════════════════════════════════════════════════════════════════════════════╝
+info: Mar-13 07:36:31.983 [BOOT] booted! pri:0 version:1520919617 start_ms:1520944590986 (996ms ago)
+info: Mar-13 07:36:31.983 [BOOT] Starting incremental boot (early)
+info: Mar-13 07:36:32.308 [T4AA7TJ1G] SOCKET-MANAGER: Changing from never_connected to prov_connect
+info: Mar-13 07:36:32.308 [T4AA7TJ1G] SOCKET-MANAGER: will stay in prov_connect state for up to 10000 ms
+info: Mar-13 07:36:32.309 [T4AA7TJ1G] SOCKET-MANAGER: Changing from prov_connect to prov_connecting
+info: Mar-13 07:36:32.309 [T4AA7TJ1G] SOCKET-MANAGER: will stay in prov_connecting state for up to 35000 ms
+info: Mar-13 07:36:32.384 [FOCUS-EVENT] Window blurred
+info: Mar-13 07:36:32.683 [T4AA7TJ1G] SOCKET-MANAGER: Changing from prov_connecting to prov_connected
+info: Mar-13 07:36:32.683 [T4AA7TJ1G] SOCKET-MANAGER: will stay in prov_connected state for up to 60000 ms
+info: Mar-13 07:36:32.684 [INFO] Got start data from Socket Manager; hydrating it
+info: Mar-13 07:36:32.942 [BOOT] Finalizing incremental boot
+info: Mar-13 07:36:33.730 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (49) timestamps added
+warn: Mar-13 07:36:33.760 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Mar-13 07:36:33.940 [BOOT] Completed incremental boot
+info: Mar-13 07:36:33.183 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Mar-13 07:36:33.183 [T4AA7TJ1G] SOCKET-MANAGER: Changing from prov_connected to prov_finalize
+info: Mar-13 07:36:33.183 [T4AA7TJ1G] SOCKET-MANAGER: will stay in prov_finalize state for up to 10000 ms
+info: Mar-13 07:36:33.183 [T4AA7TJ1G] SOCKET-MANAGER: Changing from prov_finalize to prov_finalizing
+info: Mar-13 07:36:33.183 [T4AA7TJ1G] SOCKET-MANAGER: will stay in prov_finalizing state for up to 10000 ms
+info: Mar-13 07:36:33.184 [T4AA7TJ1G] SOCKET-MANAGER: Changing from prov_finalizing to connected
+info: Mar-13 07:36:33.184 [T4AA7TJ1G] SOCKET-MANAGER: will stay in connected state for up to Infinity ms
+info: Mar-13 07:36:33.184 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Mar-13 07:36:33.185 [BOOT] Finished first boot 884 ms after DOM ready
+info: Mar-13 07:36:33.448 [CHECK-UNREADS] Checking unreads after fully booted
+info: Mar-13 07:36:33.448 [CHECK-UNREADS] Not marking C4ACUJ2HK because attention not on chat (window_not_focused)
+info: Mar-13 07:36:33.456 [UNREAD-COUNTS] Completed users.counts processing
+info: Mar-13 07:36:33.689 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Mar-13 07:36:34.400 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Mar-13 07:36:34.400 [CHECK-UNREADS] Not marking C4ACUJ2HK because attention not on chat (window_not_focused)
+info: Mar-13 07:36:47.127 [FOCUS-EVENT] Window blurred
+info: Mar-13 07:36:47.129 [FOCUS-EVENT] Window blurred
+info: Mar-13 07:37:08.327 [FOCUS-EVENT] Window focused
+info: Mar-13 07:37:08.352 [CHECK-UNREADS] Checking unreads after window became focused
+info: Mar-13 07:37:08.352 [CHECK-UNREADS] Not marking C4ACUJ2HK because last_read >= latest && channel is read
+info: Mar-13 07:37:09.375 [FOCUS-EVENT] Window blurred
+info: Mar-13 07:37:09.377 [FOCUS-EVENT] Window blurred
+info: Mar-13 07:37:09.864 [FOCUS-EVENT] Window focused
+info: Mar-13 07:37:09.867 [FOCUS-EVENT] Window blurred
+info: Mar-13 07:37:09.868 [FOCUS-EVENT] Window focused
+info: Mar-13 07:37:09.888 [CHECK-UNREADS] Checking unreads after window became focused
+info: Mar-13 07:37:09.888 [CHECK-UNREADS] Not marking C4ACUJ2HK because last_read >= latest && channel is read
+info: Mar-13 07:37:09.888 [CHECK-UNREADS] Checking unreads after window became focused
+info: Mar-13 07:37:09.888 [CHECK-UNREADS] Not marking C4ACUJ2HK because last_read >= latest && channel is read
+info: Mar-13 07:37:43.607 [FOCUS-EVENT] Window blurred
+info: Mar-13 07:37:43.608 [FOCUS-EVENT] Window blurred
+info: Mar-13 07:37:57.277 [FOCUS-EVENT] Window focused
+info: Mar-13 07:37:57.309 [FOCUS-EVENT] Window blurred
+info: Mar-13 07:37:57.309 [FOCUS-EVENT] Window focused
+info: Mar-13 07:37:57.328 [CHECK-UNREADS] Checking unreads after window became focused
+info: Mar-13 07:37:57.328 [CHECK-UNREADS] Not marking C4ACUJ2HK because last_read >= latest && channel is read
+info: Mar-13 07:37:57.328 [CHECK-UNREADS] Checking unreads after window became focused
+info: Mar-13 07:37:57.328 [CHECK-UNREADS] Not marking C4ACUJ2HK because last_read >= latest && channel is read
+info: Mar-13 07:37:57.331 [FOCUS-EVENT] Window blurred
+info: Mar-13 07:38:07.810 [FOCUS-EVENT] Window blurred
+info: Mar-13 07:38:07.820 [FOCUS-EVENT] Window blurred
+info: Mar-13 07:38:33.873 [FOCUS-EVENT] Window focused
+info: Mar-13 07:38:33.898 [FOCUS-EVENT] Window blurred
+info: Mar-13 07:38:33.899 [FOCUS-EVENT] Window focused
+info: Mar-13 07:38:33.913 [CHECK-UNREADS] Checking unreads after window became focused
+info: Mar-13 07:38:33.913 [CHECK-UNREADS] Not marking C4ACUJ2HK because last_read >= latest && channel is read
+info: Mar-13 07:38:33.913 [CHECK-UNREADS] Checking unreads after window became focused
+info: Mar-13 07:38:33.913 [CHECK-UNREADS] Not marking C4ACUJ2HK because last_read >= latest && channel is read
+info: Mar-13 07:38:33.915 [FOCUS-EVENT] Window blurred
+info: Mar-13 07:38:44.100 [FOCUS-EVENT] Window blurred
+info: Mar-13 07:38:44.300 [FOCUS-EVENT] Window blurred
+info: Mar-13 07:45:00.769 [FOCUS-EVENT] Window focused
+info: Mar-13 07:45:00.801 [FOCUS-EVENT] Window blurred
+info: Mar-13 07:45:00.820 [CHECK-UNREADS] Checking unreads after window became focused
+info: Mar-13 07:45:00.820 [CHECK-UNREADS] Not marking C4ACUJ2HK because attention not on chat (window_not_focused)
+info: Mar-13 07:45:00.822 [FOCUS-EVENT] Window blurred
+info: Mar-13 09:04:11.927 [UNREAD-COUNTS] Updated unread_cnt for D4B0W0R46: 1
+info: Mar-13 09:04:11.929 [UNREAD-COUNTS] Fetching history for unread counting: D4B0W0R46, waiting 2951 ms
+warn: Mar-13 09:04:11.961 sound is null: new_message window.Audio: function Audio() { [native code] } window.winssb: [object Object] soundManager.ok(): true 'audio/mp3' support: true
+warn: Mar-13 09:04:11.961 Known sound objects by name: b2.mp3, animal_stick.mp3, been_tree.mp3, complete_quest_requirement.mp3, confirm_delivery.mp3, flitterbug.mp3, here_you_go_lighter.mp3, hi_flowers_hit.mp3, knock_brush.mp3, save_and_checkout.mp3, item_pickup.mp3, hummus.mp3, frog.mp3, call/alert_v2.mp3, call/incoming_ring_v2.mp3, call/outgoing_ring_v2.mp3, call/pop_v2.mp3, call/they_left_call_v2.mp3, call/you_left_call_v2.mp3, call/they_joined_call_v2.mp3, call/you_joined_call_v2.mp3, call/confirmation_v2.mp3
+info: Mar-13 09:04:14.881 [HISTORY-FETCH] Fetching history for unread counting: D4B0W0R46
+info: Mar-13 09:05:24.923 [UNREAD-COUNTS] Updated unread_cnt for D4B0W0R46: 2
+warn: Mar-13 09:05:24.944 sound is null: new_message window.Audio: function Audio() { [native code] } window.winssb: [object Object] soundManager.ok(): true 'audio/mp3' support: true
+warn: Mar-13 09:05:24.944 Known sound objects by name: b2.mp3, animal_stick.mp3, been_tree.mp3, complete_quest_requirement.mp3, confirm_delivery.mp3, flitterbug.mp3, here_you_go_lighter.mp3, hi_flowers_hit.mp3, knock_brush.mp3, save_and_checkout.mp3, item_pickup.mp3, hummus.mp3, frog.mp3, call/alert_v2.mp3, call/incoming_ring_v2.mp3, call/outgoing_ring_v2.mp3, call/pop_v2.mp3, call/they_left_call_v2.mp3, call/you_left_call_v2.mp3, call/they_joined_call_v2.mp3, call/you_joined_call_v2.mp3, call/confirmation_v2.mp3
+info: Mar-13 09:08:50.810 [UNREAD-COUNTS] Fetching history for unread counting: D4AFK958V, waiting 2562 ms
+info: Mar-13 09:08:53.373 [HISTORY-FETCH] Fetching history for unread counting: D4AFK958V
+info: Mar-13 09:08:58.752 [UNREAD-COUNTS] Counting unreads in D4B0W0R46 because last_read changed to 1520949924.000723
+info: Mar-13 09:08:58.752 [UNREAD-COUNTS] Updated unread_cnt for D4B0W0R46: 0
+info: Mar-13 09:08:58.783 [UNREAD-COUNTS] Counting unreads in D4AFK958V because last_read changed to 1520950130.000697
+info: Mar-13 09:09:35.684 [UNREAD-COUNTS] Updated unread_cnt for D4AFK958V: 1
+warn: Mar-13 09:09:35.702 sound is null: new_message window.Audio: function Audio() { [native code] } window.winssb: [object Object] soundManager.ok(): true 'audio/mp3' support: true
+warn: Mar-13 09:09:35.702 Known sound objects by name: b2.mp3, animal_stick.mp3, been_tree.mp3, complete_quest_requirement.mp3, confirm_delivery.mp3, flitterbug.mp3, here_you_go_lighter.mp3, hi_flowers_hit.mp3, knock_brush.mp3, save_and_checkout.mp3, item_pickup.mp3, hummus.mp3, frog.mp3, call/alert_v2.mp3, call/incoming_ring_v2.mp3, call/outgoing_ring_v2.mp3, call/pop_v2.mp3, call/they_left_call_v2.mp3, call/you_left_call_v2.mp3, call/they_joined_call_v2.mp3, call/you_joined_call_v2.mp3, call/confirmation_v2.mp3
+info: Mar-13 09:13:19.238 [UNREAD-COUNTS] Updated unread_cnt for D4AFK958V: 2
+warn: Mar-13 09:13:19.253 sound is null: new_message window.Audio: function Audio() { [native code] } window.winssb: [object Object] soundManager.ok(): true 'audio/mp3' support: true
+warn: Mar-13 09:13:19.253 Known sound objects by name: b2.mp3, animal_stick.mp3, been_tree.mp3, complete_quest_requirement.mp3, confirm_delivery.mp3, flitterbug.mp3, here_you_go_lighter.mp3, hi_flowers_hit.mp3, knock_brush.mp3, save_and_checkout.mp3, item_pickup.mp3, hummus.mp3, frog.mp3, call/alert_v2.mp3, call/incoming_ring_v2.mp3, call/outgoing_ring_v2.mp3, call/pop_v2.mp3, call/they_left_call_v2.mp3, call/you_left_call_v2.mp3, call/they_joined_call_v2.mp3, call/you_joined_call_v2.mp3, call/confirmation_v2.mp3
+info: Mar-13 09:16:55.252 [UNREAD-COUNTS] Counting unreads in D4AFK958V because last_read changed to 1520950399.000137
+info: Mar-13 09:16:55.252 [UNREAD-COUNTS] Updated unread_cnt for D4AFK958V: 0
+info: Mar-13 09:17:00.190 [UNREAD-COUNTS] Counting unreads in D4AFK958V because last_read changed to 1520950618.000381
+info: Mar-13 09:20:25.158 [UNREAD-COUNTS] Counting unreads in D4AFK958V because last_read changed to 1520950823.000084
+info: Mar-13 09:21:22.806 [T4AA7TJ1G] upsertBot: adding bot "B9Q4ASR1V"
+info: Mar-13 09:21:22.865 [T4AA7TJ1G] upsertBot: adding bot "B9NFXG52M"
+info: Mar-13 09:22:38.431 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 09:22:38.432 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 09:22:38.432 [CHECK-UNREADS] Not marking C4ACUJ2HK because attention not on chat (window_not_focused)
+info: Mar-13 09:22:38.570 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 09:22:38.571 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 1
+info: Mar-13 09:22:38.573 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 09:22:38.573 [CHECK-UNREADS] Not marking C4ACUJ2HK because attention not on chat (window_not_focused)
+info: Mar-13 09:22:39.520 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 09:22:39.540 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 2
+info: Mar-13 09:22:39.580 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 09:22:39.580 [CHECK-UNREADS] Not marking C4ACUJ2HK because attention not on chat (window_not_focused)
+info: Mar-13 09:22:40.183 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because last_read changed to 1520950958.000582
+info: Mar-13 09:22:40.183 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 0
+warn: %cUnhandled rejection Error: Cannot send message; this socket has been closed
+    at e (https://a.slack-edge.com/bv1-1/application.9621e6d142679c7e0bd2.min.js:1:1168748)
+    at e (https://a.slack-edge.com/bv1-1/application.9621e6d142679c7e0bd2.min.js:1:1096402)
+    at https://a.slack-edge.com/bv1-1/application.9621e6d142679c7e0bd2.min.js:1:1013236
+    at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.dbed740924c61616f9dc.min.js:1:38986
+    at https://a.slack-edge.com/bv1-1/application.9621e6d142679c7e0bd2.min.js:1:2999359
+    at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.dbed740924c61616f9dc.min.js:1:38986
+    at https://a.slack-edge.com/bv1-1/application.9621e6d142679c7e0bd2.min.js:1:244066
+    at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.dbed740924c61616f9dc.min.js:1:316988
+    at Object.dispatch (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.dbed740924c61616f9dc.min.js:1:38986)
+    at Object.n [as dispatch] (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.24a8b197028b3deef0c0.min.js:1:110356)
+    at Object.send (https://a.slack-edge.com/bv1-1/application.9621e6d142679c7e0bd2.min.js:1:2111157)
+    at Object.e [as tickleMS] (https://a.slack-edge.com/bv1-1/rollup-client.afd7cd1eba786e2c2aaf.min.js:1:314493)
+    at Object.e [as maybeTickleMS] (https://a.slack-edge.com/bv1-1/rollup-client.afd7cd1eba786e2c2aaf.min.js:1:314310)
+    at Object.e [as maybeTickleMS] (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.24a8b197028b3deef0c0.min.js:1:136809)
+    at Object.maybeTickleMS (https://amd-web.slack.com/messages:811:11)
+    at window.setInterval (/snap/slack/5/usr/lib/slack/resources/app.asar/src/ssb/setup-idle-tickle.ts:50:19)
+info: Mar-13 14:32:47.729 [T4AA7TJ1G] SOCKET-MANAGER: Changing from connected to error
+info: Mar-13 14:32:47.729 [T4AA7TJ1G] SOCKET-MANAGER: will stay in error state for up to 10000 ms
+error: Mar-13 14:32:47.730 T4AA7TJ1G SOCKET-MANAGER: Closing socket due to unknown error
+info: 2018/3/13 14:32:47.731  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.24a8b197028b3deef0c0.min.js:1:68449)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.dbed740924c61616f9dc.min.js:1:1097333
+at e (https://a.slack-edge.com/bv1-1/application.9621e6d142679c7e0bd2.min.js:1:1102320)
+at e (https://a.slack-edge.com/bv1-1/application.9621e6d142679c7e0bd2.min.js:1:1104241)
+at s (https://a.slack-edge.com/bv1-1/application.9621e6d142679c7e0bd2.min.js:1:1015192)
+at e (https://a.slack-edge.com/bv1-1/application.9621e6d142679c7e0bd2.min.js:1:1104615)
+at e (https://a.slack-edge.com/bv1-1/application.9621e6d142679c7e0bd2.min.js:1:1098200)
+at e.<anonymous> (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.dbed740924c61616f9dc.min.js:1:1061268)
+at x (https://a.slack-edge.com/bv1-1/application.9621e6d142679c7e0bd2.min.js:1:1166626)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-1/application.9621e6d142679c7e0bd2.min.js:1:1168317)
+info: Mar-13 14:32:47.734 [INFO] Hiding the reconnection banner because we are disconnected
+info: Mar-13 14:32:47.756 [T4AA7TJ1G] SOCKET-MANAGER: Changing from error to wait_for_connectivity
+info: Mar-13 14:32:47.756 [T4AA7TJ1G] SOCKET-MANAGER: will stay in wait_for_connectivity state for up to 30000 ms
+info: Mar-13 14:33:17.756 [T4AA7TJ1G] SOCKET-MANAGER: Spent 30000 ms in wait_for_connectivity state; giving up
+info: Mar-13 14:33:17.756 [T4AA7TJ1G] SOCKET-MANAGER: Changing from wait_for_connectivity to error
+info: Mar-13 14:33:17.757 [T4AA7TJ1G] SOCKET-MANAGER: will stay in error state for up to 10000 ms
+error: Mar-13 14:33:17.757 T4AA7TJ1G SOCKET-MANAGER: Closing socket due to unknown error
+info: 2018/3/13 14:33:17.758  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.24a8b197028b3deef0c0.min.js:1:68449)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.dbed740924c61616f9dc.min.js:1:1097333
+at e (https://a.slack-edge.com/bv1-1/application.9621e6d142679c7e0bd2.min.js:1:1102320)
+at e (https://a.slack-edge.com/bv1-1/application.9621e6d142679c7e0bd2.min.js:1:1104241)
+at https://a.slack-edge.com/bv1-1/application.9621e6d142679c7e0bd2.min.js:1:1106711
+info: Mar-13 14:33:17.775 [T4AA7TJ1G] SOCKET-MANAGER: Changing from error to wait_for_connectivity
+info: Mar-13 14:33:17.775 [T4AA7TJ1G] SOCKET-MANAGER: will stay in wait_for_connectivity state for up to 30000 ms
+info: Mar-13 14:33:47.775 [T4AA7TJ1G] SOCKET-MANAGER: Spent 30000 ms in wait_for_connectivity state; giving up
+info: Mar-13 14:33:47.776 [T4AA7TJ1G] SOCKET-MANAGER: Changing from wait_for_connectivity to error
+info: Mar-13 14:33:47.776 [T4AA7TJ1G] SOCKET-MANAGER: will stay in error state for up to 10000 ms
+error: Mar-13 14:33:47.776 T4AA7TJ1G SOCKET-MANAGER: Closing socket due to unknown error
+info: 2018/3/13 14:33:47.776  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.24a8b197028b3deef0c0.min.js:1:68449)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.dbed740924c61616f9dc.min.js:1:1097333
+at e (https://a.slack-edge.com/bv1-1/application.9621e6d142679c7e0bd2.min.js:1:1102320)
+at e (https://a.slack-edge.com/bv1-1/application.9621e6d142679c7e0bd2.min.js:1:1104241)
+at https://a.slack-edge.com/bv1-1/application.9621e6d142679c7e0bd2.min.js:1:1106711
+info: Mar-13 14:33:47.795 [T4AA7TJ1G] SOCKET-MANAGER: Changing from error to wait_for_connectivity
+info: Mar-13 14:33:47.795 [T4AA7TJ1G] SOCKET-MANAGER: will stay in wait_for_connectivity state for up to 30000 ms
+info: Mar-13 14:34:17.795 [T4AA7TJ1G] SOCKET-MANAGER: Spent 30000 ms in wait_for_connectivity state; giving up
+info: Mar-13 14:34:17.795 [T4AA7TJ1G] SOCKET-MANAGER: Changing from wait_for_connectivity to error
+info: Mar-13 14:34:17.796 [T4AA7TJ1G] SOCKET-MANAGER: will stay in error state for up to 10000 ms
+error: Mar-13 14:34:17.796 T4AA7TJ1G SOCKET-MANAGER: Closing socket due to unknown error
+info: 2018/3/13 14:34:17.796  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.24a8b197028b3deef0c0.min.js:1:68449)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.dbed740924c61616f9dc.min.js:1:1097333
+at e (https://a.slack-edge.com/bv1-1/application.9621e6d142679c7e0bd2.min.js:1:1102320)
+at e (https://a.slack-edge.com/bv1-1/application.9621e6d142679c7e0bd2.min.js:1:1104241)
+at https://a.slack-edge.com/bv1-1/application.9621e6d142679c7e0bd2.min.js:1:1106711
+info: Mar-13 14:34:17.814 [T4AA7TJ1G] SOCKET-MANAGER: Changing from error to wait_for_connectivity
+info: Mar-13 14:34:17.814 [T4AA7TJ1G] SOCKET-MANAGER: will stay in wait_for_connectivity state for up to 30000 ms
+warn: Mar-13 14:34:21.970 Internet connection still offline after 1 attempts (unable to reach API)
+info: Mar-13 14:34:47.815 [T4AA7TJ1G] SOCKET-MANAGER: Spent 30000 ms in wait_for_connectivity state; giving up
+info: Mar-13 14:34:47.815 [T4AA7TJ1G] SOCKET-MANAGER: Changing from wait_for_connectivity to error
+info: Mar-13 14:34:47.815 [T4AA7TJ1G] SOCKET-MANAGER: will stay in error state for up to 10000 ms
+error: Mar-13 14:34:47.815 T4AA7TJ1G SOCKET-MANAGER: Closing socket due to unknown error
+info: 2018/3/13 14:34:47.816  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.24a8b197028b3deef0c0.min.js:1:68449)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.dbed740924c61616f9dc.min.js:1:1097333
+at e (https://a.slack-edge.com/bv1-1/application.9621e6d142679c7e0bd2.min.js:1:1102320)
+at e (https://a.slack-edge.com/bv1-1/application.9621e6d142679c7e0bd2.min.js:1:1104241)
+at https://a.slack-edge.com/bv1-1/application.9621e6d142679c7e0bd2.min.js:1:1106711
+info: Mar-13 14:34:47.832 [T4AA7TJ1G] SOCKET-MANAGER: Changing from error to wait_for_connectivity
+info: Mar-13 14:34:47.832 [T4AA7TJ1G] SOCKET-MANAGER: will stay in wait_for_connectivity state for up to 30000 ms
+info: Mar-13 14:34:52.687 [INFO] Internet connection has been re-established after 2 retry attempts; offline for NaN seconds
+info: Mar-13 14:34:52.688 [T4AA7TJ1G] SOCKET-MANAGER: Changing from wait_for_connectivity to wait_for_rate_limit
+info: Mar-13 14:34:52.688 [T4AA7TJ1G] SOCKET-MANAGER: will stay in wait_for_rate_limit state for up to 120000 ms
+info: Mar-13 14:34:52.688 [T4AA7TJ1G] SOCKET-MANAGER: Changing from wait_for_rate_limit to connect
+info: Mar-13 14:34:52.688 [T4AA7TJ1G] SOCKET-MANAGER: will stay in connect state for up to 10000 ms
+info: Mar-13 14:34:52.688 [T4AA7TJ1G] SOCKET-MANAGER: Changing from connect to checking_fast_reconnect
+info: Mar-13 14:34:52.688 [T4AA7TJ1G] SOCKET-MANAGER: will stay in checking_fast_reconnect state for up to 60000 ms
+info: Mar-13 14:34:52.689 [T4AA7TJ1G] SOCKET-MANAGER: Changing from checking_fast_reconnect to prov_connect
+info: Mar-13 14:34:52.689 [T4AA7TJ1G] SOCKET-MANAGER: will stay in prov_connect state for up to 10000 ms
+info: Mar-13 14:34:52.689 [T4AA7TJ1G] SOCKET-MANAGER: Changing from prov_connect to prov_connecting
+info: Mar-13 14:34:52.689 [T4AA7TJ1G] SOCKET-MANAGER: will stay in prov_connecting state for up to 35000 ms
+info: Mar-13 14:34:53.770 [T4AA7TJ1G] SOCKET-MANAGER: Changing from prov_connecting to prov_connected
+info: Mar-13 14:34:53.770 [T4AA7TJ1G] SOCKET-MANAGER: will stay in prov_connected state for up to 60000 ms
+info: Mar-13 14:34:53.780 [INFO] Got start data from Socket Manager; hydrating it
+info: Mar-13 14:34:53.130 [INFO] Successfully hydrated start data from Socket Manager; processing it
+info: Mar-13 14:34:53.130 [INFO] TS.reload() called: "parseInt(TS.boot_data.version_ts) < parseInt(data.min_version_ts)"
+info: 2018/3/13 14:34:53.131  Stacktrace: ↴
+ at Object.e [as reload] (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.24a8b197028b3deef0c0.min.js:1:78805)
+at Object.e [as reloadIfVersionsChanged] (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.24a8b197028b3deef0c0.min.js:1:79039)
+at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.24a8b197028b3deef0c0.min.js:1:82459)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_ts.24a8b197028b3deef0c0.min.js:1:89127
+at u (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.dbed740924c61616f9dc.min.js:1:480475)
+at O._settlePromiseFromHandler (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.dbed740924c61616f9dc.min.js:1:452960)
+at O._settlePromise (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.dbed740924c61616f9dc.min.js:1:453812)
+at O._settlePromise0 (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.dbed740924c61616f9dc.min.js:1:454549)
+at O._settlePromises (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.dbed740924c61616f9dc.min.js:1:455943)
+at O._fulfill (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.dbed740924c61616f9dc.min.js:1:454923)
+at O._settlePromise (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.dbed740924c61616f9dc.min.js:1:454031)
+at O._settlePromise0 (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.dbed740924c61616f9dc.min.js:1:454549)
+at O._settlePromises (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.dbed740924c61616f9dc.min.js:1:455943)
+at O._fulfill (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.dbed740924c61616f9dc.min.js:1:454923)
+info: Mar-13 14:34:53.135 [INFO] client window unloaded!
+info: Mar-13 14:34:55.817 [BOOT] booted! pri:0 version:1520968887 start_ms:1520969694835 (981ms ago)
+info: Mar-13 14:34:55.817 [BOOT] Starting incremental boot (early)
+info: Mar-13 14:34:56.160 [T4AA7TJ1G] SOCKET-MANAGER: Changing from never_connected to prov_connect
+info: Mar-13 14:34:56.161 [T4AA7TJ1G] SOCKET-MANAGER: will stay in prov_connect state for up to 10000 ms
+info: Mar-13 14:34:56.162 [T4AA7TJ1G] SOCKET-MANAGER: Changing from prov_connect to prov_connecting
+info: Mar-13 14:34:56.162 [T4AA7TJ1G] SOCKET-MANAGER: will stay in prov_connecting state for up to 35000 ms
+info: Mar-13 14:34:56.237 [FOCUS-EVENT] Window blurred
+info: Mar-13 14:34:56.492 [T4AA7TJ1G] bulkUpsertBot: adding bot "B9Q4ASR1V"
+info: Mar-13 14:34:56.592 [BOOT] Finalizing incremental boot
+info: Mar-13 14:34:56.594 [FLANNEL] received a user_counts_request call while we are not connected; deferring
+info: Mar-13 14:34:56.722 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (49) timestamps added
+info: Mar-13 14:34:56.945 [T4AA7TJ1G] SOCKET-MANAGER: Changing from prov_connecting to prov_connected
+info: Mar-13 14:34:56.945 [T4AA7TJ1G] SOCKET-MANAGER: will stay in prov_connected state for up to 60000 ms
+info: Mar-13 14:34:56.946 [FLANNEL] connected! Continuing deferred user_counts_request call
+info: Mar-13 14:34:56.947 [INFO] Got start data from Socket Manager; hydrating it
+warn: Mar-13 14:34:57.190 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Mar-13 14:34:57.370 [BOOT] Completed incremental boot
+info: Mar-13 14:34:57.148 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Mar-13 14:34:57.149 [T4AA7TJ1G] SOCKET-MANAGER: Changing from prov_connected to prov_finalize
+info: Mar-13 14:34:57.149 [T4AA7TJ1G] SOCKET-MANAGER: will stay in prov_finalize state for up to 10000 ms
+info: Mar-13 14:34:57.149 [T4AA7TJ1G] SOCKET-MANAGER: Changing from prov_finalize to prov_finalizing
+info: Mar-13 14:34:57.149 [T4AA7TJ1G] SOCKET-MANAGER: will stay in prov_finalizing state for up to 10000 ms
+info: Mar-13 14:34:57.149 [T4AA7TJ1G] SOCKET-MANAGER: Changing from prov_finalizing to connected
+info: Mar-13 14:34:57.149 [T4AA7TJ1G] SOCKET-MANAGER: will stay in connected state for up to Infinity ms
+info: Mar-13 14:34:57.149 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Mar-13 14:34:57.150 [BOOT] Finished first boot 997 ms after DOM ready
+info: Mar-13 14:34:57.199 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Mar-13 14:34:57.260 [CHECK-UNREADS] Checking unreads after fully booted
+info: Mar-13 14:34:57.260 [CHECK-UNREADS] Not marking C4ACUJ2HK because attention not on chat (window_not_focused)
+info: Mar-13 14:34:57.672 [UNREAD-COUNTS] Completed users.counts processing
+info: Mar-13 14:34:57.690 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Mar-13 14:34:57.690 [CHECK-UNREADS] Not marking C4ACUJ2HK because attention not on chat (window_not_focused)
+info: Mar-13 14:38:06.885 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:38:06.885 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 1
+info: Mar-13 14:38:06.889 [UNREAD-COUNTS] Updated unread_highlight_cnt for C4ACUJ2HK: 1
+info: Mar-13 14:38:06.891 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:38:06.891 [CHECK-UNREADS] Not marking C4ACUJ2HK because attention not on chat (window_not_focused)
+warn: Mar-13 14:38:06.950 sound is null: new_message window.Audio: function Audio() { [native code] } window.winssb: [object Object] soundManager.ok(): true 'audio/mp3' support: true
+warn: Mar-13 14:38:06.950 Known sound objects by name: b2.mp3, animal_stick.mp3, been_tree.mp3, complete_quest_requirement.mp3, confirm_delivery.mp3, flitterbug.mp3, here_you_go_lighter.mp3, hi_flowers_hit.mp3, knock_brush.mp3, save_and_checkout.mp3, item_pickup.mp3, hummus.mp3, frog.mp3, call/alert_v2.mp3, call/incoming_ring_v2.mp3, call/outgoing_ring_v2.mp3, call/pop_v2.mp3, call/they_left_call_v2.mp3, call/you_left_call_v2.mp3, call/they_joined_call_v2.mp3, call/you_joined_call_v2.mp3, call/confirmation_v2.mp3
+info: Mar-13 14:38:55.709 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:38:55.710 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 2
+info: Mar-13 14:38:55.711 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:38:55.712 [CHECK-UNREADS] Not marking C4ACUJ2HK because attention not on chat (window_not_focused)
+info: Mar-13 14:39:20.588 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:39:20.589 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 3
+info: Mar-13 14:39:20.591 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:39:20.591 [CHECK-UNREADS] Not marking C4ACUJ2HK because attention not on chat (window_not_focused)
+info: Mar-13 14:39:44.137 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:39:44.138 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 4
+info: Mar-13 14:39:44.139 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:39:44.139 [CHECK-UNREADS] Not marking C4ACUJ2HK because attention not on chat (window_not_focused)
+info: Mar-13 14:42:22.167 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:42:22.168 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 5
+info: Mar-13 14:42:22.170 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:42:22.170 [CHECK-UNREADS] Not marking C4ACUJ2HK because attention not on chat (window_not_focused)
+info: Mar-13 14:42:26.486 [FOCUS-EVENT] Window focused
+info: Mar-13 14:42:26.504 [CHECK-UNREADS] Checking unreads after window became focused
+info: Mar-13 14:42:26.505 [CHECK-UNREADS] Marking C4ACUJ2HK because unread line is visible
+info: Mar-13 14:42:26.508 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because last_read changed to 1520970142.000330
+info: Mar-13 14:42:26.508 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 0
+info: Mar-13 14:42:26.509 [UNREAD-COUNTS] Updated unread_highlight_cnt for C4ACUJ2HK: 0
+info: Mar-13 14:42:48.890 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:42:48.890 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:42:48.890 [CHECK-UNREADS] Not marking C4ACUJ2HK because last_read >= latest && channel is read
+info: Mar-13 14:42:48.141 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because message removed
+info: Mar-13 14:42:48.141 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:42:48.141 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:42:48.141 [CHECK-UNREADS] Marking C4ACUJ2HK because unread line is visible
+info: Mar-13 14:42:48.142 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because last_read changed to 1520970168.000304
+info: Mar-13 14:42:57.645 [FOCUS-EVENT] Window blurred
+info: Mar-13 14:42:57.647 [FOCUS-EVENT] Window blurred
+info: Mar-13 14:43:03.185 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:43:03.185 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 1
+info: Mar-13 14:43:03.187 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:43:03.187 [CHECK-UNREADS] Not marking C4ACUJ2HK because attention not on chat (window_not_focused)
+info: Mar-13 14:43:05.650 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:43:05.650 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 2
+info: Mar-13 14:43:05.651 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:43:05.651 [CHECK-UNREADS] Not marking C4ACUJ2HK because attention not on chat (window_not_focused)
+info: Mar-13 14:43:06.184 [FOCUS-EVENT] Window focused
+info: Mar-13 14:43:06.208 [CHECK-UNREADS] Checking unreads after window became focused
+info: Mar-13 14:43:06.208 [CHECK-UNREADS] Marking C4ACUJ2HK because unread line is visible
+info: Mar-13 14:43:06.209 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because last_read changed to 1520970185.000715
+info: Mar-13 14:43:06.209 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 0
+info: Mar-13 14:43:07.616 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:43:07.616 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 1
+info: Mar-13 14:43:07.618 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:43:07.618 [CHECK-UNREADS] Marking C4ACUJ2HK because unread line is visible
+info: Mar-13 14:43:07.619 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because last_read changed to 1520970187.000644
+info: Mar-13 14:43:07.619 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 0
+info: Mar-13 14:43:11.277 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:43:11.277 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:43:11.277 [CHECK-UNREADS] Not marking C4ACUJ2HK because last_read >= latest && channel is read
+info: Mar-13 14:43:11.339 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because message removed
+info: Mar-13 14:43:11.339 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:43:11.339 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:43:11.339 [CHECK-UNREADS] Marking C4ACUJ2HK because unread line is visible
+info: Mar-13 14:43:11.340 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because last_read changed to 1520970191.000446
+info: Mar-13 14:43:13.285 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:43:13.285 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 1
+info: Mar-13 14:43:13.289 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:43:13.289 [CHECK-UNREADS] Marking C4ACUJ2HK because unread line is visible
+info: Mar-13 14:43:13.290 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because last_read changed to 1520970193.000384
+info: Mar-13 14:43:13.291 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 0
+info: Mar-13 14:43:13.618 [FOCUS-EVENT] Window blurred
+info: Mar-13 14:43:13.621 [FOCUS-EVENT] Window blurred
+info: Mar-13 14:43:22.704 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:43:22.705 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 1
+info: Mar-13 14:43:22.707 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:43:22.707 [CHECK-UNREADS] Not marking C4ACUJ2HK because attention not on chat (window_not_focused)
+info: Mar-13 14:43:35.328 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:43:35.329 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 2
+info: Mar-13 14:43:35.330 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:43:35.330 [CHECK-UNREADS] Not marking C4ACUJ2HK because attention not on chat (window_not_focused)
+info: Mar-13 14:43:39.880 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:43:39.890 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 3
+info: Mar-13 14:43:39.900 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:43:39.900 [CHECK-UNREADS] Not marking C4ACUJ2HK because attention not on chat (window_not_focused)
+info: Mar-13 14:43:47.461 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:43:47.462 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 4
+info: Mar-13 14:43:47.463 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:43:47.463 [CHECK-UNREADS] Not marking C4ACUJ2HK because attention not on chat (window_not_focused)
+info: Mar-13 14:43:54.743 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:43:54.744 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 5
+info: Mar-13 14:43:54.745 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:43:54.746 [CHECK-UNREADS] Not marking C4ACUJ2HK because attention not on chat (window_not_focused)
+info: Mar-13 14:44:17.140 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:44:17.141 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 6
+info: Mar-13 14:44:17.142 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:44:17.142 [CHECK-UNREADS] Not marking C4ACUJ2HK because attention not on chat (window_not_focused)
+info: Mar-13 14:44:52.136 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:44:52.137 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 7
+info: Mar-13 14:44:52.139 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:44:52.139 [CHECK-UNREADS] Not marking C4ACUJ2HK because attention not on chat (window_not_focused)
+info: Mar-13 14:44:59.910 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:44:59.920 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 8
+info: Mar-13 14:44:59.930 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:44:59.930 [CHECK-UNREADS] Not marking C4ACUJ2HK because attention not on chat (window_not_focused)
+info: Mar-13 14:45:16.801 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:45:16.802 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 9
+info: Mar-13 14:45:16.804 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:45:16.804 [CHECK-UNREADS] Not marking C4ACUJ2HK because attention not on chat (window_not_focused)
+info: Mar-13 14:45:20.100 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:45:20.101 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 10
+info: Mar-13 14:45:20.102 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:45:20.102 [CHECK-UNREADS] Not marking C4ACUJ2HK because attention not on chat (window_not_focused)
+info: Mar-13 14:45:21.361 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:45:21.362 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 11
+info: Mar-13 14:45:21.363 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:45:21.363 [CHECK-UNREADS] Not marking C4ACUJ2HK because attention not on chat (window_not_focused)
+info: Mar-13 14:45:29.545 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:45:29.546 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 12
+info: Mar-13 14:45:29.547 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:45:29.547 [CHECK-UNREADS] Not marking C4ACUJ2HK because attention not on chat (window_not_focused)
+info: Mar-13 14:45:33.821 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:45:33.823 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 13
+info: Mar-13 14:45:33.824 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:45:33.824 [CHECK-UNREADS] Not marking C4ACUJ2HK because attention not on chat (window_not_focused)
+info: Mar-13 14:45:39.951 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:45:39.953 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 14
+info: Mar-13 14:45:39.954 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:45:39.954 [CHECK-UNREADS] Not marking C4ACUJ2HK because attention not on chat (window_not_focused)
+info: Mar-13 14:45:58.700 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:45:58.900 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 15
+info: Mar-13 14:45:58.110 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:45:58.110 [CHECK-UNREADS] Not marking C4ACUJ2HK because attention not on chat (window_not_focused)
+info: Mar-13 14:46:47.845 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:46:47.847 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 16
+info: Mar-13 14:46:47.848 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:46:47.848 [CHECK-UNREADS] Not marking C4ACUJ2HK because attention not on chat (window_not_focused)
+info: Mar-13 14:47:21.505 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:47:21.507 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 17
+info: Mar-13 14:47:21.508 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:47:21.508 [CHECK-UNREADS] Not marking C4ACUJ2HK because attention not on chat (window_not_focused)
+info: Mar-13 14:48:03.433 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:48:03.435 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 18
+info: Mar-13 14:48:03.437 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:48:03.437 [CHECK-UNREADS] Not marking C4ACUJ2HK because attention not on chat (window_not_focused)
+info: Mar-13 14:48:03.466 [CHECK-UNREADS] unreadLineVisible updated: true -> false
+info: Mar-13 14:48:20.642 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:48:20.644 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 19
+info: Mar-13 14:48:20.646 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:48:20.646 [CHECK-UNREADS] Not marking C4ACUJ2HK because attention not on chat (window_not_focused)
+info: Mar-13 14:48:26.697 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:48:26.699 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 20
+info: Mar-13 14:48:26.701 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:48:26.701 [CHECK-UNREADS] Not marking C4ACUJ2HK because attention not on chat (window_not_focused)
+info: Mar-13 14:48:31.269 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:48:31.271 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 21
+info: Mar-13 14:48:31.273 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:48:31.273 [CHECK-UNREADS] Not marking C4ACUJ2HK because attention not on chat (window_not_focused)
+info: Mar-13 14:49:21.488 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:49:21.491 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 22
+info: Mar-13 14:49:21.492 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:49:21.492 [CHECK-UNREADS] Not marking C4ACUJ2HK because attention not on chat (window_not_focused)
+info: Mar-13 14:49:26.440 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Mar-13 14:49:26.395 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Mar-13 14:49:26.395 [CHECK-UNREADS] Not marking C4ACUJ2HK because attention not on chat (window_not_focused)
+info: Mar-13 14:49:26.526 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:49:26.528 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 23
+info: Mar-13 14:49:26.530 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:49:26.530 [CHECK-UNREADS] Not marking C4ACUJ2HK because attention not on chat (window_not_focused)
+info: Mar-13 14:49:33.327 [CHECK-UNREADS] unreadLineVisible updated: true -> false
+info: Mar-13 14:49:34.423 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:49:34.425 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 24
+info: Mar-13 14:49:34.427 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:49:34.427 [CHECK-UNREADS] Not marking C4ACUJ2HK because attention not on chat (window_not_focused)
+info: Mar-13 14:49:35.240 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:49:35.270 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 25
+info: Mar-13 14:49:35.290 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:49:35.290 [CHECK-UNREADS] Not marking C4ACUJ2HK because attention not on chat (window_not_focused)
+info: Mar-13 14:49:40.609 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:49:40.611 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 26
+info: Mar-13 14:49:40.613 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:49:40.613 [CHECK-UNREADS] Not marking C4ACUJ2HK because attention not on chat (window_not_focused)
+info: Mar-13 14:49:40.619 [FOCUS-EVENT] Window focused
+info: Mar-13 14:49:40.698 [CHECK-UNREADS] Checking unreads after window became focused
+info: Mar-13 14:49:40.698 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 14:49:52.159 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:49:52.162 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 27
+info: Mar-13 14:49:52.163 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:49:52.163 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 14:50:07.453 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:50:07.455 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:50:07.455 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 14:50:07.533 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because message removed
+info: Mar-13 14:50:07.535 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:50:07.537 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:50:07.538 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 14:50:11.948 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:50:11.951 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:50:11.951 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 14:50:12.210 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because message removed
+info: Mar-13 14:50:12.220 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:50:12.240 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:50:12.240 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 14:50:14.434 [FOCUS-EVENT] Window blurred
+info: Mar-13 14:50:14.436 [FOCUS-EVENT] Window blurred
+info: Mar-13 14:51:02.660 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:51:02.690 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 28
+info: Mar-13 14:51:02.710 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:51:02.710 [CHECK-UNREADS] Not marking C4ACUJ2HK because attention not on chat (window_not_focused)
+info: Mar-13 14:51:37.900 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:51:37.940 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 29
+info: Mar-13 14:51:37.960 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:51:37.960 [CHECK-UNREADS] Not marking C4ACUJ2HK because attention not on chat (window_not_focused)
+info: Mar-13 14:51:42.543 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:51:42.546 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 30
+info: Mar-13 14:51:42.548 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:51:42.548 [CHECK-UNREADS] Not marking C4ACUJ2HK because attention not on chat (window_not_focused)
+info: Mar-13 14:51:58.731 [FOCUS-EVENT] Window focused
+info: Mar-13 14:51:58.759 [CHECK-UNREADS] Checking unreads after window became focused
+info: Mar-13 14:51:58.760 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 14:52:00.701 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:52:00.704 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 31
+info: Mar-13 14:52:00.705 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:52:00.706 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 14:52:02.988 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:52:02.990 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:52:02.990 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 14:52:03.670 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because message removed
+info: Mar-13 14:52:03.690 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:52:03.710 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:52:03.710 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 14:52:04.251 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:52:04.253 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:52:04.253 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 14:52:04.335 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because message removed
+info: Mar-13 14:52:04.336 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:52:04.338 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:52:04.339 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 14:52:07.846 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:52:07.847 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:52:07.848 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 14:52:07.921 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because message removed
+info: Mar-13 14:52:07.923 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:52:07.926 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:52:07.927 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 14:52:09.957 [FOCUS-EVENT] Window blurred
+info: Mar-13 14:52:09.959 [FOCUS-EVENT] Window blurred
+info: Mar-13 14:52:13.898 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:52:13.901 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 32
+info: Mar-13 14:52:13.903 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:52:13.903 [CHECK-UNREADS] Not marking C4ACUJ2HK because attention not on chat (window_not_focused)
+info: Mar-13 14:52:15.620 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:52:15.622 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 33
+info: Mar-13 14:52:15.623 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:52:15.623 [CHECK-UNREADS] Not marking C4ACUJ2HK because attention not on chat (window_not_focused)
+info: Mar-13 14:52:16.957 [FOCUS-EVENT] Window focused
+info: Mar-13 14:52:16.986 [CHECK-UNREADS] Checking unreads after window became focused
+info: Mar-13 14:52:16.986 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 14:52:30.590 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:52:30.592 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:52:30.592 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 14:52:30.669 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because message removed
+info: Mar-13 14:52:30.672 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:52:30.675 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:52:30.675 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 14:52:38.376 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:52:38.378 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:52:38.378 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 14:52:38.453 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because message removed
+info: Mar-13 14:52:38.456 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:52:38.458 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:52:38.458 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 14:52:38.905 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:52:38.908 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 34
+info: Mar-13 14:52:38.909 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:52:38.910 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 14:52:42.512 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:52:42.514 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:52:42.515 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 14:52:42.587 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because message removed
+info: Mar-13 14:52:42.589 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:52:42.591 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:52:42.591 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 14:52:44.790 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:52:44.792 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:52:44.792 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 14:52:44.867 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because message removed
+info: Mar-13 14:52:44.868 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:52:44.870 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:52:44.870 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 14:52:50.872 [FOCUS-EVENT] Window blurred
+info: Mar-13 14:52:50.874 [FOCUS-EVENT] Window blurred
+info: Mar-13 14:52:51.534 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:52:51.537 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 35
+info: Mar-13 14:52:51.538 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:52:51.538 [CHECK-UNREADS] Not marking C4ACUJ2HK because attention not on chat (window_not_focused)
+info: Mar-13 14:52:55.652 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:52:55.655 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 36
+info: Mar-13 14:52:55.657 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:52:55.657 [CHECK-UNREADS] Not marking C4ACUJ2HK because attention not on chat (window_not_focused)
+info: Mar-13 14:52:56.473 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:52:56.476 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 37
+info: Mar-13 14:52:56.478 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:52:56.478 [CHECK-UNREADS] Not marking C4ACUJ2HK because attention not on chat (window_not_focused)
+info: Mar-13 14:53:18.808 [FOCUS-EVENT] Window focused
+info: Mar-13 14:53:18.839 [CHECK-UNREADS] Checking unreads after window became focused
+info: Mar-13 14:53:18.839 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 14:53:50.683 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:53:50.685 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:53:50.685 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 14:53:50.785 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because message removed
+info: Mar-13 14:53:50.787 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:53:50.789 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:53:50.789 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 14:53:55.456 [FOCUS-EVENT] Window blurred
+info: Mar-13 14:53:55.458 [FOCUS-EVENT] Window blurred
+info: Mar-13 14:54:22.429 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:54:22.433 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 38
+info: Mar-13 14:54:22.434 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:54:22.435 [CHECK-UNREADS] Not marking C4ACUJ2HK because attention not on chat (window_not_focused)
+info: Mar-13 14:54:23.921 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:54:23.925 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 39
+info: Mar-13 14:54:23.926 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:54:23.926 [CHECK-UNREADS] Not marking C4ACUJ2HK because attention not on chat (window_not_focused)
+info: Mar-13 14:54:24.143 [FOCUS-EVENT] Window focused
+info: Mar-13 14:54:24.169 [CHECK-UNREADS] Checking unreads after window became focused
+info: Mar-13 14:54:24.169 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 14:54:24.848 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:54:24.851 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 40
+info: Mar-13 14:54:24.852 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:54:24.852 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 14:54:46.250 [FOCUS-EVENT] Window blurred
+info: Mar-13 14:54:46.270 [FOCUS-EVENT] Window blurred
+info: Mar-13 14:55:10.437 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:55:10.441 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 41
+info: Mar-13 14:55:10.443 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:55:10.443 [CHECK-UNREADS] Not marking C4ACUJ2HK because attention not on chat (window_not_focused)
+info: Mar-13 14:55:27.488 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:55:27.492 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 42
+info: Mar-13 14:55:27.493 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:55:27.494 [CHECK-UNREADS] Not marking C4ACUJ2HK because attention not on chat (window_not_focused)
+info: Mar-13 14:55:33.242 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:55:33.245 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 43
+info: Mar-13 14:55:33.247 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:55:33.247 [CHECK-UNREADS] Not marking C4ACUJ2HK because attention not on chat (window_not_focused)
+info: Mar-13 14:55:39.825 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:55:39.829 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 44
+info: Mar-13 14:55:39.830 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:55:39.830 [CHECK-UNREADS] Not marking C4ACUJ2HK because attention not on chat (window_not_focused)
+info: Mar-13 14:56:17.537 [FOCUS-EVENT] Window focused
+info: Mar-13 14:56:17.565 [CHECK-UNREADS] Checking unreads after window became focused
+info: Mar-13 14:56:17.565 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 14:56:29.714 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:56:29.716 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:56:29.716 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 14:56:29.805 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because message removed
+info: Mar-13 14:56:29.809 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:56:29.811 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:56:29.811 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 14:56:33.775 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:56:33.779 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:56:33.779 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 14:56:33.875 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because message removed
+info: Mar-13 14:56:33.878 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:56:33.880 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:56:33.880 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 14:57:23.960 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:57:23.963 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 45
+info: Mar-13 14:57:23.965 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:57:23.965 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 14:57:45.123 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:57:45.127 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 46
+info: Mar-13 14:57:45.129 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:57:45.130 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 14:58:23.398 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:58:23.403 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 47
+info: Mar-13 14:58:23.404 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:58:23.404 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 14:58:25.590 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:58:25.594 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 48
+info: Mar-13 14:58:25.595 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:58:25.595 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 14:58:43.333 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:58:43.337 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 49
+info: Mar-13 14:58:43.338 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:58:43.338 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 14:58:51.628 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 14:58:51.632 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 50
+info: Mar-13 14:58:51.633 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 14:58:51.634 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 15:00:12.950 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 15:00:12.955 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 51
+info: Mar-13 15:00:12.957 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 15:00:12.957 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 15:00:43.516 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 15:00:43.522 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 52
+info: Mar-13 15:00:43.524 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 15:00:43.524 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 15:01:35.908 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 15:01:35.912 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 53
+info: Mar-13 15:01:35.913 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 15:01:35.913 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 15:02:20.310 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 15:02:20.314 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 54
+info: Mar-13 15:02:20.315 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 15:02:20.315 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 15:02:23.543 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 15:02:23.547 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 15:02:23.547 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 15:02:25.425 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 15:02:25.430 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 55
+info: Mar-13 15:02:25.431 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 15:02:25.431 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 15:02:27.936 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 15:02:27.941 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 56
+info: Mar-13 15:02:27.942 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 15:02:27.943 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 15:02:34.750 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 15:02:34.800 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 57
+info: Mar-13 15:02:34.810 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 15:02:34.820 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 15:02:34.742 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 15:02:34.746 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 15:02:34.747 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 15:02:36.900 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 15:02:36.950 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 15:02:36.950 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 15:02:36.583 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 15:02:36.588 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 58
+info: Mar-13 15:02:36.590 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 15:02:36.590 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 15:02:49.946 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 15:02:49.951 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 59
+info: Mar-13 15:02:49.953 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 15:02:49.953 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 15:02:56.645 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 15:02:56.651 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 60
+info: Mar-13 15:02:56.653 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 15:02:56.653 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 15:02:57.596 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 15:02:57.599 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 61
+info: Mar-13 15:02:57.600 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 15:02:57.600 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 15:03:01.110 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 15:03:01.117 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 62
+info: Mar-13 15:03:01.118 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 15:03:01.119 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 15:03:43.252 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because message removed
+info: Mar-13 15:03:43.256 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 61
+info: Mar-13 15:03:50.504 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 15:03:50.509 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 62
+info: Mar-13 15:03:50.510 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 15:03:50.510 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 15:03:58.304 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 15:03:58.309 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 63
+info: Mar-13 15:03:58.312 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 15:03:58.312 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 15:04:02.716 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 15:04:02.720 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 64
+info: Mar-13 15:04:02.722 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 15:04:02.722 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 15:04:32.538 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 15:04:32.544 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 65
+info: Mar-13 15:04:32.545 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 15:04:32.545 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 15:04:57.511 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 15:04:57.516 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 66
+info: Mar-13 15:04:57.517 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 15:04:57.518 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 15:05:03.546 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 15:05:03.551 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 67
+info: Mar-13 15:05:03.553 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 15:05:03.553 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 15:05:38.622 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 15:05:38.628 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 68
+info: Mar-13 15:05:38.630 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 15:05:38.630 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 15:05:49.300 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 15:05:49.390 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 69
+info: Mar-13 15:05:49.420 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 15:05:49.420 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 15:07:17.450 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 15:07:17.456 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 70
+info: Mar-13 15:07:17.457 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 15:07:17.457 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 15:08:09.307 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 15:08:09.313 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 71
+info: Mar-13 15:08:09.314 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 15:08:09.314 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 15:08:09.622 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 15:08:09.630 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 15:08:09.630 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 15:08:33.670 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 15:08:33.730 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 72
+info: Mar-13 15:08:33.740 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 15:08:33.740 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 15:09:27.191 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because message removed
+info: Mar-13 15:09:27.195 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 71
+info: Mar-13 15:09:50.420 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because message removed
+info: Mar-13 15:09:50.423 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 70
+info: Mar-13 15:11:35.825 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 15:11:35.830 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 15:11:35.830 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 15:11:41.345 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 15:11:41.351 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 15:11:41.351 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 15:12:02.911 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 15:12:02.916 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 15:12:02.916 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 15:12:05.686 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 15:12:05.695 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 15:12:05.696 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 15:12:06.998 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 15:12:07.300 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 15:12:07.400 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 15:12:15.397 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 15:12:15.403 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 71
+info: Mar-13 15:12:15.405 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 15:12:15.405 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 15:12:27.489 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 15:12:27.497 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 72
+info: Mar-13 15:12:27.498 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 15:12:27.498 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 15:13:08.734 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 15:13:08.740 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 15:13:08.740 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 15:13:59.650 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 15:13:59.656 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 73
+info: Mar-13 15:13:59.657 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 15:13:59.658 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 15:14:05.254 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 15:14:05.260 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 15:14:05.260 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 15:14:15.143 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 15:14:15.150 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 74
+info: Mar-13 15:14:15.151 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 15:14:15.151 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 15:14:22.729 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 15:14:22.735 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 15:14:22.735 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 15:14:45.517 [UNREAD-COUNTS] Updated unread_cnt for D4B0W0R46: 1
+info: Mar-13 15:14:45.519 [UNREAD-COUNTS] Fetching history for unread counting: D4B0W0R46, waiting 7554 ms
+warn: Mar-13 15:14:45.557 sound is null: new_message window.Audio: function Audio() { [native code] } window.winssb: [object Object] soundManager.ok(): true 'audio/mp3' support: true
+warn: Mar-13 15:14:45.557 Known sound objects by name: b2.mp3, animal_stick.mp3, been_tree.mp3, complete_quest_requirement.mp3, confirm_delivery.mp3, flitterbug.mp3, here_you_go_lighter.mp3, hi_flowers_hit.mp3, knock_brush.mp3, save_and_checkout.mp3, item_pickup.mp3, hummus.mp3, frog.mp3, call/alert_v2.mp3, call/incoming_ring_v2.mp3, call/outgoing_ring_v2.mp3, call/pop_v2.mp3, call/they_left_call_v2.mp3, call/you_left_call_v2.mp3, call/they_joined_call_v2.mp3, call/you_joined_call_v2.mp3, call/confirmation_v2.mp3
+info: Mar-13 15:14:49.349 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 15:14:49.356 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 15:14:49.356 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 15:14:53.730 [HISTORY-FETCH] Fetching history for unread counting: D4B0W0R46
+info: Mar-13 15:14:54.533 [UNREAD-COUNTS] Counting unreads in D4B0W0R46 because last_read changed to 1520972085.000366
+info: Mar-13 15:14:54.534 [UNREAD-COUNTS] Updated unread_cnt for D4B0W0R46: 0
+info: Mar-13 15:15:00.166 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 15:15:00.172 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 75
+info: Mar-13 15:15:00.173 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 15:15:00.174 [CHECK-UNREADS] Not marking C4ACUJ2HK, clearing ghost last_read
+info: Mar-13 15:15:09.549 [UNREAD-COUNTS] Counting unreads in D4B0W0R46 because last_read changed to 1520972106.000035
+info: Mar-13 15:15:09.581 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because last_read changed to 1520972100.000049
+info: Mar-13 15:15:09.581 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 0
+info: Mar-13 15:15:09.622 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Mar-13 15:15:10.000 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Mar-13 15:15:10.000 [CHECK-UNREADS] Not marking C4ACUJ2HK because last_read >= latest && channel is read
+info: Mar-13 15:15:15.660 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 15:15:15.660 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 1
+info: Mar-13 15:15:15.680 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 15:15:15.680 [CHECK-UNREADS] Marking C4ACUJ2HK because unread line is visible
+info: Mar-13 15:15:15.690 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because last_read changed to 1520972115.000014
+info: Mar-13 15:15:15.700 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 0
+info: Mar-13 15:15:19.118 [UNREAD-COUNTS] Updated unread_cnt for D4B0W0R46: 1
+warn: Mar-13 15:15:19.152 sound is null: new_message window.Audio: function Audio() { [native code] } window.winssb: [object Object] soundManager.ok(): true 'audio/mp3' support: true
+warn: Mar-13 15:15:19.152 Known sound objects by name: b2.mp3, animal_stick.mp3, been_tree.mp3, complete_quest_requirement.mp3, confirm_delivery.mp3, flitterbug.mp3, here_you_go_lighter.mp3, hi_flowers_hit.mp3, knock_brush.mp3, save_and_checkout.mp3, item_pickup.mp3, hummus.mp3, frog.mp3, call/alert_v2.mp3, call/incoming_ring_v2.mp3, call/outgoing_ring_v2.mp3, call/pop_v2.mp3, call/they_left_call_v2.mp3, call/you_left_call_v2.mp3, call/they_joined_call_v2.mp3, call/you_joined_call_v2.mp3, call/confirmation_v2.mp3
+info: Mar-13 15:15:21.633 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 15:15:21.634 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 15:15:21.634 [CHECK-UNREADS] Marking C4ACUJ2HK because unread line is visible
+info: Mar-13 15:15:21.635 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because last_read changed to 1520972121.000391
+info: Mar-13 15:15:23.478 [UNREAD-COUNTS] Updated unread_cnt for D4B0W0R46: 2
+warn: Mar-13 15:15:23.480 sound is null: new_message window.Audio: function Audio() { [native code] } window.winssb: [object Object] soundManager.ok(): true 'audio/mp3' support: true
+warn: Mar-13 15:15:23.480 Known sound objects by name: b2.mp3, animal_stick.mp3, been_tree.mp3, complete_quest_requirement.mp3, confirm_delivery.mp3, flitterbug.mp3, here_you_go_lighter.mp3, hi_flowers_hit.mp3, knock_brush.mp3, save_and_checkout.mp3, item_pickup.mp3, hummus.mp3, frog.mp3, call/alert_v2.mp3, call/incoming_ring_v2.mp3, call/outgoing_ring_v2.mp3, call/pop_v2.mp3, call/they_left_call_v2.mp3, call/you_left_call_v2.mp3, call/they_joined_call_v2.mp3, call/you_joined_call_v2.mp3, call/confirmation_v2.mp3
+info: Mar-13 15:15:27.638 [UNREAD-COUNTS] Updated unread_cnt for D4B0W0R46: 3
+warn: Mar-13 15:15:27.668 sound is null: new_message window.Audio: function Audio() { [native code] } window.winssb: [object Object] soundManager.ok(): true 'audio/mp3' support: true
+warn: Mar-13 15:15:27.668 Known sound objects by name: b2.mp3, animal_stick.mp3, been_tree.mp3, complete_quest_requirement.mp3, confirm_delivery.mp3, flitterbug.mp3, here_you_go_lighter.mp3, hi_flowers_hit.mp3, knock_brush.mp3, save_and_checkout.mp3, item_pickup.mp3, hummus.mp3, frog.mp3, call/alert_v2.mp3, call/incoming_ring_v2.mp3, call/outgoing_ring_v2.mp3, call/pop_v2.mp3, call/they_left_call_v2.mp3, call/you_left_call_v2.mp3, call/they_joined_call_v2.mp3, call/you_joined_call_v2.mp3, call/confirmation_v2.mp3
+info: Mar-13 15:15:36.590 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 15:15:36.590 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 1
+info: Mar-13 15:15:36.592 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 15:15:36.592 [CHECK-UNREADS] Marking C4ACUJ2HK because unread line is visible
+info: Mar-13 15:15:36.593 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because last_read changed to 1520972136.000410
+info: Mar-13 15:15:36.593 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 0
+info: Mar-13 15:15:43.435 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (1) timestamps added
+info: Mar-13 15:15:43.436 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 1
+info: Mar-13 15:15:43.437 [UNREAD-COUNTS] Checking unreads in C4ACUJ2HK after a new message
+info: Mar-13 15:15:43.437 [CHECK-UNREADS] Marking C4ACUJ2HK because unread line is visible
+info: Mar-13 15:15:43.438 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because last_read changed to 1520972143.000315
+info: Mar-13 15:15:43.438 [UNREAD-COUNTS] Updated unread_cnt for C4ACUJ2HK: 0
+info: Mar-13 15:16:01.525 [UNREAD-COUNTS] Counting unreads in D4B0W0R46 because message removed
+info: Mar-13 15:16:01.526 [UNREAD-COUNTS] Updated unread_cnt for D4B0W0R46: 2
+info: Mar-13 15:16:08.218 [UNREAD-COUNTS] Counting unreads in D4B0W0R46 because message removed
+info: Mar-13 15:16:08.218 [UNREAD-COUNTS] Updated unread_cnt for D4B0W0R46: 1
+info: Mar-13 15:16:14.510 [UNREAD-COUNTS] Counting unreads in D4B0W0R46 because message removed
+info: Mar-13 15:16:14.510 [UNREAD-COUNTS] Updated unread_cnt for D4B0W0R46: 0
+info: Mar-13 15:47:17.290 [FOCUS-EVENT] Window blurred
+info: Mar-13 15:47:17.630 [FOCUS-EVENT] Window blurred
+warn: %cUnhandled rejection Error: Cannot send message; this socket has been closed
+    at e (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.a198a12189c05b5aba0f.min.js:1:1665612)
+    at e (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.a198a12189c05b5aba0f.min.js:1:1610835)
+    at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.a198a12189c05b5aba0f.min.js:1:1560284
+    at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.a198a12189c05b5aba0f.min.js:1:123667
+    at https://a.slack-edge.com/bv1-1/application.69aea5d5a8794c5e3118.min.js:1:2672784
+    at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.a198a12189c05b5aba0f.min.js:1:123667
+    at https://a.slack-edge.com/bv1-1/application.69aea5d5a8794c5e3118.min.js:1:223945
+    at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.a198a12189c05b5aba0f.min.js:1:544414
+    at Object.dispatch (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.a198a12189c05b5aba0f.min.js:1:123667)
+    at Object.n [as dispatch] (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.24a8b197028b3deef0c0.min.js:1:110356)
+    at Object.send (https://a.slack-edge.com/bv1-1/application.69aea5d5a8794c5e3118.min.js:1:1794055)
+    at Object.e [as tickleMS] (https://a.slack-edge.com/bv1-1/rollup-client.6c79cd66b7997e6f4e94.min.js:1:314493)
+    at Object.e [as maybeTickleMS] (https://a.slack-edge.com/bv1-1/rollup-client.6c79cd66b7997e6f4e94.min.js:1:314310)
+    at Object.e [as maybeTickleMS] (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.24a8b197028b3deef0c0.min.js:1:136809)
+    at Object.maybeTickleMS (https://amd-web.slack.com/messages/C4ACUJ2HK:811:11)
+    at window.setInterval (/snap/slack/5/usr/lib/slack/resources/app.asar/src/ssb/setup-idle-tickle.ts:50:19)
+info: Mar-13 15:47:26.968 [FOCUS-EVENT] Window focused
+info: Mar-13 15:47:27.600 [CHECK-UNREADS] Checking unreads after window became focused
+info: Mar-13 15:47:27.600 [CHECK-UNREADS] Not marking C4ACUJ2HK because last_read >= latest && channel is read
+info: Mar-13 15:47:28.200 [FOCUS-EVENT] Window blurred
+info: Mar-13 15:47:28.210 [FOCUS-EVENT] Window blurred
+info: Mar-13 15:48:07.711 [T4AA7TJ1G] SOCKET-MANAGER: Changing from connected to error
+info: Mar-13 15:48:07.711 [T4AA7TJ1G] SOCKET-MANAGER: will stay in error state for up to 10000 ms
+error: Mar-13 15:48:07.712 T4AA7TJ1G SOCKET-MANAGER: Closing socket due to unknown error
+info: 2018/3/13 15:48:07.714  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.24a8b197028b3deef0c0.min.js:1:68449)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.a198a12189c05b5aba0f.min.js:1:1427291
+at e (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.a198a12189c05b5aba0f.min.js:1:1616753)
+at e (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.a198a12189c05b5aba0f.min.js:1:1618674)
+at s (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.a198a12189c05b5aba0f.min.js:1:1562245)
+at e (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.a198a12189c05b5aba0f.min.js:1:1619048)
+at e (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.a198a12189c05b5aba0f.min.js:1:1612633)
+at e.<anonymous> (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.a198a12189c05b5aba0f.min.js:1:1390496)
+at O (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.a198a12189c05b5aba0f.min.js:1:1663490)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.a198a12189c05b5aba0f.min.js:1:1665181)
+info: Mar-13 15:48:07.717 [INFO] Hiding the reconnection banner because we are disconnected
+info: Mar-13 15:48:07.748 [T4AA7TJ1G] SOCKET-MANAGER: Changing from error to wait_for_connectivity
+info: Mar-13 15:48:07.748 [T4AA7TJ1G] SOCKET-MANAGER: will stay in wait_for_connectivity state for up to 30000 ms
+info: Mar-13 15:48:08.760 [T4AA7TJ1G] SOCKET-MANAGER: Changing from wait_for_connectivity to wait_for_rate_limit
+info: Mar-13 15:48:08.760 [T4AA7TJ1G] SOCKET-MANAGER: will stay in wait_for_rate_limit state for up to 120000 ms
+info: Mar-13 15:48:08.770 [T4AA7TJ1G] SOCKET-MANAGER: Changing from wait_for_rate_limit to connect
+info: Mar-13 15:48:08.770 [T4AA7TJ1G] SOCKET-MANAGER: will stay in connect state for up to 10000 ms
+info: Mar-13 15:48:08.770 [T4AA7TJ1G] SOCKET-MANAGER: Changing from connect to checking_fast_reconnect
+info: Mar-13 15:48:08.770 [T4AA7TJ1G] SOCKET-MANAGER: will stay in checking_fast_reconnect state for up to 60000 ms
+info: Mar-13 15:48:08.780 [T4AA7TJ1G] SOCKET-MANAGER: Changing from checking_fast_reconnect to prov_connect
+info: Mar-13 15:48:08.780 [T4AA7TJ1G] SOCKET-MANAGER: will stay in prov_connect state for up to 10000 ms
+info: Mar-13 15:48:08.780 [T4AA7TJ1G] SOCKET-MANAGER: Changing from prov_connect to prov_connecting
+info: Mar-13 15:48:08.790 [T4AA7TJ1G] SOCKET-MANAGER: will stay in prov_connecting state for up to 35000 ms
+info: Mar-13 15:48:08.455 [T4AA7TJ1G] SOCKET-MANAGER: Changing from prov_connecting to prov_connected
+info: Mar-13 15:48:08.455 [T4AA7TJ1G] SOCKET-MANAGER: will stay in prov_connected state for up to 60000 ms
+info: Mar-13 15:48:08.456 [INFO] Got start data from Socket Manager; hydrating it
+info: Mar-13 15:48:08.508 [INFO] Successfully hydrated start data from Socket Manager; processing it
+warn: Mar-13 15:48:08.509 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Mar-13 15:48:08.629 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Mar-13 15:48:08.629 [T4AA7TJ1G] SOCKET-MANAGER: Changing from prov_connected to prov_finalize
+info: Mar-13 15:48:08.629 [T4AA7TJ1G] SOCKET-MANAGER: will stay in prov_finalize state for up to 10000 ms
+info: Mar-13 15:48:08.629 [T4AA7TJ1G] SOCKET-MANAGER: Changing from prov_finalize to prov_finalizing
+info: Mar-13 15:48:08.629 [T4AA7TJ1G] SOCKET-MANAGER: will stay in prov_finalizing state for up to 10000 ms
+info: Mar-13 15:48:08.629 [T4AA7TJ1G] SOCKET-MANAGER: Changing from prov_finalizing to connected
+info: Mar-13 15:48:08.629 [T4AA7TJ1G] SOCKET-MANAGER: will stay in connected state for up to Infinity ms
+info: Mar-13 15:48:08.630 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Mar-13 15:48:08.630 [T4AA7TJ1G] EVENTLOG fr=false, lc=false, lt=1520972181.000717
+info: Mar-13 15:48:08.630 [T4AA7TJ1G] EVENTLOG fetching events since 1520972181.000717 (1907.9992830753326 seconds ago)
+info: Mar-13 15:48:08.686 [CHECK-UNREADS] unreadLineVisible updated: true -> false
+info: Mar-13 15:48:08.852 [T4AA7TJ1G] EVENTLOG processing 17 events out of a total set of 17
+info: Mar-13 15:48:08.854 [T4AA7TJ1G] EVENTLOG fetched finish (cancelled? false)
+info: Mar-13 15:48:08.854 [T4AA7TJ1G] EVENTLOG dispatching signal and clearing timestamp
+info: Mar-13 15:48:08.923 [T4AA7TJ1G] bulkUpsertBot: adding bot "B7KMN93BM"
+info: Mar-13 15:48:08.942 [MESSAGE-LIST] requestAround channelId: C4ACUJ2HK isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Mar-13 15:48:08.943 [HISTORY-FETCH] Fetching history for message pane: C4ACUJ2HK
+info: Mar-13 15:48:08.954 [MESSAGE-LIST] requestAround channelId: C4ACUJ2HK isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Mar-13 15:48:08.954 [MESSAGE-LIST] requestAround channelId: C4ACUJ2HK isLoading: false timestamps: 0 reachedStart: false reachedEnd: false
+info: Mar-13 15:48:08.963 [UNREAD-COUNTS] Completed users.counts processing
+info: Mar-13 15:48:09.570 [UNREAD-COUNTS] Counting unreads in C4ACUJ2HK because (53) timestamps added
+info: Mar-13 15:48:09.590 [MESSAGE-LIST] componentWillReceiveProps isLoading: false isLoadingOlder: false timestamps: 169
+info: Mar-13 15:52:56.976 [UNREAD-COUNTS] Updated unread_cnt for D4DEB1TPG: 1
+info: Mar-13 15:52:56.977 [UNREAD-COUNTS] Fetching history for unread counting: D4DEB1TPG, waiting 3494 ms
+warn: Mar-13 15:52:56.978 sound is null: new_message window.Audio: function Audio() { [native code] } window.winssb: [object Object] soundManager.ok(): true 'audio/mp3' support: true
+warn: Mar-13 15:52:56.978 Known sound objects by name: b2.mp3, animal_stick.mp3, been_tree.mp3, complete_quest_requirement.mp3, confirm_delivery.mp3, flitterbug.mp3, here_you_go_lighter.mp3, hi_flowers_hit.mp3, knock_brush.mp3, save_and_checkout.mp3, item_pickup.mp3, hummus.mp3, frog.mp3, call/alert_v2.mp3, call/incoming_ring_v2.mp3, call/outgoing_ring_v2.mp3, call/pop_v2.mp3, call/they_left_call_v2.mp3, call/you_left_call_v2.mp3, call/they_joined_call_v2.mp3, call/you_joined_call_v2.mp3, call/confirmation_v2.mp3
+info: Mar-13 15:53:00.472 [HISTORY-FETCH] Fetching history for unread counting: D4DEB1TPG
+info: Mar-13 15:53:05.296 [FOCUS-EVENT] Window focused
+info: Mar-13 15:53:05.335 [CHECK-UNREADS] Checking unreads after window became focused
+info: Mar-13 15:53:05.335 [CHECK-UNREADS] Not marking C4ACUJ2HK because last_read >= latest && channel is read
+info: Mar-13 15:53:05.375 [ACTION:CHANNEL-SIDEBAR] Selected D4DEB1TPG
+info: Mar-13 15:53:05.408 [MESSAGE-LIST] Switching channels: D4DEB1TPG timestamps: 42
+info: Mar-13 15:53:05.456 [CHECK-UNREADS] unreadLineVisible updated: false -> true
+info: Mar-13 15:53:05.817 [CHECK-UNREADS] Checking unreads after unread line became visible
+info: Mar-13 15:53:05.818 [CHECK-UNREADS] Marking D4DEB1TPG because unread line is visible
+info: Mar-13 15:53:05.819 [UNREAD-COUNTS] Counting unreads in D4DEB1TPG because last_read changed to 1520974376.000675
+info: Mar-13 15:53:05.819 [UNREAD-COUNTS] Updated unread_cnt for D4DEB1TPG: 0
+info: Mar-13 15:53:09.142 [UNREAD-COUNTS] Counting unreads in D4DEB1TPG because (1) timestamps added
+info: Mar-13 15:53:09.142 [UNREAD-COUNTS] Checking unreads in D4DEB1TPG after a new message
+info: Mar-13 15:53:09.142 [CHECK-UNREADS] Not marking D4DEB1TPG because last_read >= latest && channel is read
+info: Mar-13 15:53:09.205 [UNREAD-COUNTS] Counting unreads in D4DEB1TPG because message removed
+info: Mar-13 15:53:09.205 [UNREAD-COUNTS] Counting unreads in D4DEB1TPG because (1) timestamps added
+info: Mar-13 15:53:09.205 [UNREAD-COUNTS] Checking unreads in D4DEB1TPG after a new message
+info: Mar-13 15:53:09.205 [CHECK-UNREADS] Marking D4DEB1TPG because unread line is visible
+info: Mar-13 15:53:09.206 [UNREAD-COUNTS] Counting unreads in D4DEB1TPG because last_read changed to 1520974389.000078
+info: Mar-13 15:53:13.741 [UNREAD-COUNTS] Counting unreads in D4DEB1TPG because (1) timestamps added
+info: Mar-13 15:53:13.741 [UNREAD-COUNTS] Updated unread_cnt for D4DEB1TPG: 1
+info: Mar-13 15:53:13.743 [UNREAD-COUNTS] Checking unreads in D4DEB1TPG after a new message
+info: Mar-13 15:53:13.743 [CHECK-UNREADS] Marking D4DEB1TPG because unread line is visible
+info: Mar-13 15:53:13.744 [UNREAD-COUNTS] Counting unreads in D4DEB1TPG because last_read changed to 1520974393.000595
+info: Mar-13 15:53:13.744 [UNREAD-COUNTS] Updated unread_cnt for D4DEB1TPG: 0
+info: Mar-13 15:53:13.971 [UNREAD-COUNTS] Counting unreads in D4DEB1TPG because (1) timestamps added
+info: Mar-13 15:53:13.971 [UNREAD-COUNTS] Checking unreads in D4DEB1TPG after a new message
+info: Mar-13 15:53:13.971 [CHECK-UNREADS] Not marking D4DEB1TPG because last_read >= latest && channel is read
+info: Mar-13 15:53:14.280 [UNREAD-COUNTS] Counting unreads in D4DEB1TPG because message removed
+info: Mar-13 15:53:14.280 [UNREAD-COUNTS] Counting unreads in D4DEB1TPG because (1) timestamps added
+info: Mar-13 15:53:14.280 [UNREAD-COUNTS] Checking unreads in D4DEB1TPG after a new message
+info: Mar-13 15:53:14.280 [CHECK-UNREADS] Marking D4DEB1TPG because unread line is visible
+info: Mar-13 15:53:14.290 [UNREAD-COUNTS] Counting unreads in D4DEB1TPG because last_read changed to 1520974393.000823
+info: Mar-13 15:53:34.268 [UNREAD-COUNTS] Counting unreads in D4DEB1TPG because (1) timestamps added
+info: Mar-13 15:53:34.268 [UNREAD-COUNTS] Checking unreads in D4DEB1TPG after a new message
+info: Mar-13 15:53:34.268 [CHECK-UNREADS] Not marking D4DEB1TPG because last_read >= latest && channel is read
+info: Mar-13 15:53:34.333 [UNREAD-COUNTS] Counting unreads in D4DEB1TPG because message removed
+info: Mar-13 15:53:34.333 [UNREAD-COUNTS] Counting unreads in D4DEB1TPG because (1) timestamps added
+info: Mar-13 15:53:34.334 [UNREAD-COUNTS] Checking unreads in D4DEB1TPG after a new message
+info: Mar-13 15:53:34.334 [CHECK-UNREADS] Marking D4DEB1TPG because unread line is visible
+info: Mar-13 15:53:34.335 [UNREAD-COUNTS] Counting unreads in D4DEB1TPG because last_read changed to 1520974414.000216
+info: Mar-13 15:53:46.140 [UNREAD-COUNTS] Counting unreads in D4DEB1TPG because (1) timestamps added
+info: Mar-13 15:53:46.140 [UNREAD-COUNTS] Checking unreads in D4DEB1TPG after a new message
+info: Mar-13 15:53:46.140 [CHECK-UNREADS] Not marking D4DEB1TPG because last_read >= latest && channel is read
+info: Mar-13 15:53:46.740 [UNREAD-COUNTS] Counting unreads in D4DEB1TPG because message removed
+info: Mar-13 15:53:46.740 [UNREAD-COUNTS] Counting unreads in D4DEB1TPG because (1) timestamps added
+info: Mar-13 15:53:46.750 [UNREAD-COUNTS] Checking unreads in D4DEB1TPG after a new message
+info: Mar-13 15:53:46.750 [CHECK-UNREADS] Marking D4DEB1TPG because unread line is visible
+info: Mar-13 15:53:46.770 [UNREAD-COUNTS] Counting unreads in D4DEB1TPG because last_read changed to 1520974426.000014
+info: Mar-13 15:53:46.606 [FOCUS-EVENT] Window blurred
+info: Mar-13 15:53:46.608 [FOCUS-EVENT] Window blurred
+info: Mar-13 15:54:13.233 [UNREAD-COUNTS] Counting unreads in D4DEB1TPG because (1) timestamps added
+info: Mar-13 15:54:13.233 [UNREAD-COUNTS] Updated unread_cnt for D4DEB1TPG: 1
+info: Mar-13 15:54:13.235 [UNREAD-COUNTS] Checking unreads in D4DEB1TPG after a new message
+info: Mar-13 15:54:13.235 [CHECK-UNREADS] Not marking D4DEB1TPG because attention not on chat (window_not_focused)
+warn: Mar-13 15:54:13.296 sound is null: new_message window.Audio: function Audio() { [native code] } window.winssb: [object Object] soundManager.ok(): true 'audio/mp3' support: true
+warn: Mar-13 15:54:13.296 Known sound objects by name: b2.mp3, animal_stick.mp3, been_tree.mp3, complete_quest_requirement.mp3, confirm_delivery.mp3, flitterbug.mp3, here_you_go_lighter.mp3, hi_flowers_hit.mp3, knock_brush.mp3, save_and_checkout.mp3, item_pickup.mp3, hummus.mp3, frog.mp3, call/alert_v2.mp3, call/incoming_ring_v2.mp3, call/outgoing_ring_v2.mp3, call/pop_v2.mp3, call/they_left_call_v2.mp3, call/you_left_call_v2.mp3, call/they_joined_call_v2.mp3, call/you_joined_call_v2.mp3, call/confirmation_v2.mp3
+info: Mar-13 15:58:02.342 [FOCUS-EVENT] Window focused
+info: Mar-13 15:58:02.363 [CHECK-UNREADS] Checking unreads after window became focused
+info: Mar-13 15:58:02.363 [CHECK-UNREADS] Marking D4DEB1TPG because unread line is visible
+info: Mar-13 15:58:02.365 [UNREAD-COUNTS] Counting unreads in D4DEB1TPG because last_read changed to 1520974453.000106
+info: Mar-13 15:58:02.365 [UNREAD-COUNTS] Updated unread_cnt for D4DEB1TPG: 0
+info: Mar-13 15:58:03.841 [FOCUS-EVENT] Window blurred
+info: Mar-13 15:58:03.843 [FOCUS-EVENT] Window blurred
+info: Mar-13 16:41:28.982 [UNREAD-COUNTS] Fetching history for unread counting: G5716AE4D, waiting 9290 ms
+info: Mar-13 16:41:31.439 [UNREAD-COUNTS] Counting unreads in G5716AE4D because last_read changed to 1520977288.000438
+info: Mar-13 16:41:46.457 [UNREAD-COUNTS] Counting unreads in G5716AE4D because last_read changed to 1520977302.000055
+info: Mar-13 16:42:54.305 [UNREAD-COUNTS] Counting unreads in D4DEB1TPG because (1) timestamps added
+info: Mar-13 16:42:54.306 [UNREAD-COUNTS] Checking unreads in D4DEB1TPG after a new message
+info: Mar-13 16:42:54.306 [CHECK-UNREADS] Not marking D4DEB1TPG because attention not on chat (window_not_focused)
+info: Mar-13 16:42:56.426 [UNREAD-COUNTS] Counting unreads in D4DEB1TPG because last_read changed to 1520977374.000025
+info: Mar-13 16:42:59.205 [UNREAD-COUNTS] Counting unreads in D4DEB1TPG because (1) timestamps added
+info: Mar-13 16:42:59.206 [UNREAD-COUNTS] Updated unread_cnt for D4DEB1TPG: 1
+info: Mar-13 16:42:59.207 [UNREAD-COUNTS] Checking unreads in D4DEB1TPG after a new message
+info: Mar-13 16:42:59.207 [CHECK-UNREADS] Not marking D4DEB1TPG because attention not on chat (window_not_focused)
+warn: Mar-13 16:42:59.236 sound is null: new_message window.Audio: function Audio() { [native code] } window.winssb: [object Object] soundManager.ok(): true 'audio/mp3' support: true
+warn: Mar-13 16:42:59.236 Known sound objects by name: b2.mp3, animal_stick.mp3, been_tree.mp3, complete_quest_requirement.mp3, confirm_delivery.mp3, flitterbug.mp3, here_you_go_lighter.mp3, hi_flowers_hit.mp3, knock_brush.mp3, save_and_checkout.mp3, item_pickup.mp3, hummus.mp3, frog.mp3, call/alert_v2.mp3, call/incoming_ring_v2.mp3, call/outgoing_ring_v2.mp3, call/pop_v2.mp3, call/they_left_call_v2.mp3, call/you_left_call_v2.mp3, call/they_joined_call_v2.mp3, call/you_joined_call_v2.mp3, call/confirmation_v2.mp3
+info: Mar-13 16:43:06.162 [UNREAD-COUNTS] Counting unreads in D4DEB1TPG because (1) timestamps added
+info: Mar-13 16:43:06.162 [UNREAD-COUNTS] Checking unreads in D4DEB1TPG after a new message
+info: Mar-13 16:43:06.162 [CHECK-UNREADS] Not marking D4DEB1TPG because attention not on chat (window_not_focused)
+info: Mar-13 16:43:06.370 [UNREAD-COUNTS] Counting unreads in D4DEB1TPG because last_read changed to 1520977385.000365
+info: Mar-13 16:43:06.370 [UNREAD-COUNTS] Updated unread_cnt for D4DEB1TPG: 0
+info: Mar-13 16:43:11.904 [UNREAD-COUNTS] Counting unreads in D4DEB1TPG because (1) timestamps added
+info: Mar-13 16:43:11.904 [UNREAD-COUNTS] Checking unreads in D4DEB1TPG after a new message
+info: Mar-13 16:43:11.904 [CHECK-UNREADS] Not marking D4DEB1TPG because attention not on chat (window_not_focused)
+info: Mar-13 16:43:16.353 [UNREAD-COUNTS] Counting unreads in D4DEB1TPG because last_read changed to 1520977391.000413
+info: Mar-13 16:43:21.554 [UNREAD-COUNTS] Counting unreads in D4DEB1TPG because (1) timestamps added
+info: Mar-13 16:43:21.555 [UNREAD-COUNTS] Updated unread_cnt for D4DEB1TPG: 1
+info: Mar-13 16:43:21.558 [UNREAD-COUNTS] Checking unreads in D4DEB1TPG after a new message
+info: Mar-13 16:43:21.558 [CHECK-UNREADS] Not marking D4DEB1TPG because attention not on chat (window_not_focused)
+warn: Mar-13 16:43:21.588 sound is null: new_message window.Audio: function Audio() { [native code] } window.winssb: [object Object] soundManager.ok(): true 'audio/mp3' support: true
+warn: Mar-13 16:43:21.588 Known sound objects by name: b2.mp3, animal_stick.mp3, been_tree.mp3, complete_quest_requirement.mp3, confirm_delivery.mp3, flitterbug.mp3, here_you_go_lighter.mp3, hi_flowers_hit.mp3, knock_brush.mp3, save_and_checkout.mp3, item_pickup.mp3, hummus.mp3, frog.mp3, call/alert_v2.mp3, call/incoming_ring_v2.mp3, call/outgoing_ring_v2.mp3, call/pop_v2.mp3, call/they_left_call_v2.mp3, call/you_left_call_v2.mp3, call/they_joined_call_v2.mp3, call/you_joined_call_v2.mp3, call/confirmation_v2.mp3
+info: Mar-13 16:43:26.492 [UNREAD-COUNTS] Counting unreads in D4DEB1TPG because last_read changed to 1520977401.000146
+info: Mar-13 16:43:26.492 [UNREAD-COUNTS] Updated unread_cnt for D4DEB1TPG: 0
+info: Mar-13 16:43:41.832 [UNREAD-COUNTS] Counting unreads in D4DEB1TPG because (1) timestamps added
+info: Mar-13 16:43:41.834 [UNREAD-COUNTS] Checking unreads in D4DEB1TPG after a new message
+info: Mar-13 16:43:41.834 [CHECK-UNREADS] Not marking D4DEB1TPG because attention not on chat (window_not_focused)
+info: Mar-13 16:43:43.362 [UNREAD-COUNTS] Counting unreads in D4DEB1TPG because (1) timestamps added
+info: Mar-13 16:43:43.362 [UNREAD-COUNTS] Checking unreads in D4DEB1TPG after a new message
+info: Mar-13 16:43:43.362 [CHECK-UNREADS] Not marking D4DEB1TPG because attention not on chat (window_not_focused)
+info: Mar-13 16:43:46.529 [UNREAD-COUNTS] Counting unreads in D4DEB1TPG because last_read changed to 1520977423.000055
+info: Mar-13 16:44:26.453 [UNREAD-COUNTS] Counting unreads in G5716AE4D because last_read changed to 1520977464.000485
+info: Mar-13 16:44:33.328 [UNREAD-COUNTS] Counting unreads in G5716AE4D because last_read changed to 1520977472.000565
+info: Mar-13 16:44:51.315 [UNREAD-COUNTS] Counting unreads in G5716AE4D because last_read changed to 1520977489.000108
+info: Mar-13 16:45:32.375 [UNREAD-COUNTS] Counting unreads in D4DEB1TPG because (1) timestamps added
+info: Mar-13 16:45:32.375 [UNREAD-COUNTS] Checking unreads in D4DEB1TPG after a new message
+info: Mar-13 16:45:32.375 [CHECK-UNREADS] Not marking D4DEB1TPG because attention not on chat (window_not_focused)
+info: Mar-13 16:45:36.375 [UNREAD-COUNTS] Counting unreads in D4DEB1TPG because last_read changed to 1520977532.000061
+info: Mar-13 16:45:37.696 [UNREAD-COUNTS] Counting unreads in D4DEB1TPG because (1) timestamps added
+info: Mar-13 16:45:37.696 [UNREAD-COUNTS] Checking unreads in D4DEB1TPG after a new message
+info: Mar-13 16:45:37.696 [CHECK-UNREADS] Not marking D4DEB1TPG because attention not on chat (window_not_focused)
+info: Mar-13 16:45:41.463 [UNREAD-COUNTS] Counting unreads in D4DEB1TPG because last_read changed to 1520977537.000352
+info: Mar-13 16:45:51.742 [UNREAD-COUNTS] Counting unreads in D4DEB1TPG because (1) timestamps added
+info: Mar-13 16:45:51.742 [UNREAD-COUNTS] Checking unreads in D4DEB1TPG after a new message
+info: Mar-13 16:45:51.743 [CHECK-UNREADS] Not marking D4DEB1TPG because attention not on chat (window_not_focused)
+info: Mar-13 16:45:56.402 [UNREAD-COUNTS] Counting unreads in D4DEB1TPG because last_read changed to 1520977551.000230
+info: Mar-13 16:45:57.802 [UNREAD-COUNTS] Counting unreads in D4DEB1TPG because (1) timestamps added
+info: Mar-13 16:45:57.802 [UNREAD-COUNTS] Checking unreads in D4DEB1TPG after a new message
+info: Mar-13 16:45:57.802 [CHECK-UNREADS] Not marking D4DEB1TPG because attention not on chat (window_not_focused)
+info: Mar-13 16:46:03.682 [UNREAD-COUNTS] Counting unreads in D4DEB1TPG because last_read changed to 1520977557.000325
+info: Mar-13 16:54:33.670 [FOCUS-EVENT] Window focused
+info: Mar-13 16:54:33.690 [FOCUS-EVENT] Window blurred
+info: Mar-13 16:54:33.706 [CHECK-UNREADS] Checking unreads after window became focused
+info: Mar-13 16:54:33.706 [CHECK-UNREADS] Not marking D4DEB1TPG because attention not on chat (window_not_focused)
+info: Mar-13 16:54:33.709 [FOCUS-EVENT] Window blurred
+info: Mar-13 16:59:51.310 [T4AA7TJ1G] You joined channel G9PBVCAQ4
+warn: Mar-13 16:59:51.311 T4AA7TJ1G Received join event for an mpim or group we already know about (G9PBVCAQ4); ignoring it.
+info: Mar-13 16:59:51.311 [T4AA7TJ1G] You joined channel G9PBVCAQ4
+warn: Mar-13 16:59:51.311 T4AA7TJ1G Received join event for an mpim or group we already know about (G9PBVCAQ4); ignoring it.
+info: Mar-13 17:00:00.410 [UNREAD-COUNTS] Fetching history for unread counting: G9PBVCAQ4, waiting 6851 ms
+info: Mar-13 17:00:00.914 [UNREAD-COUNTS] Dropping unread history request for G9PBVCAQ4 since there is already one pending
+info: Mar-13 17:00:01.450 [UNREAD-COUNTS] Counting unreads in G9PBVCAQ4 because last_read changed to 1520978399.000480
+info: Mar-13 17:00:23.606 [UNREAD-COUNTS] Updated unread_cnt for G9PBVCAQ4: 1
+warn: Mar-13 17:00:23.630 sound is null: new_message window.Audio: function Audio() { [native code] } window.winssb: [object Object] soundManager.ok(): true 'audio/mp3' support: true
+warn: Mar-13 17:00:23.630 Known sound objects by name: b2.mp3, animal_stick.mp3, been_tree.mp3, complete_quest_requirement.mp3, confirm_delivery.mp3, flitterbug.mp3, here_you_go_lighter.mp3, hi_flowers_hit.mp3, knock_brush.mp3, save_and_checkout.mp3, item_pickup.mp3, hummus.mp3, frog.mp3, call/alert_v2.mp3, call/incoming_ring_v2.mp3, call/outgoing_ring_v2.mp3, call/pop_v2.mp3, call/they_left_call_v2.mp3, call/you_left_call_v2.mp3, call/they_joined_call_v2.mp3, call/you_joined_call_v2.mp3, call/confirmation_v2.mp3
+info: Mar-13 17:00:36.466 [UNREAD-COUNTS] Counting unreads in G9PBVCAQ4 because last_read changed to 1520978423.000181
+info: Mar-13 17:00:36.466 [UNREAD-COUNTS] Updated unread_cnt for G9PBVCAQ4: 0
+info: Mar-13 17:00:41.390 [UNREAD-COUNTS] Counting unreads in G9PBVCAQ4 because last_read changed to 1520978436.000146
+info: Mar-13 17:00:46.320 [UNREAD-COUNTS] Counting unreads in G9PBVCAQ4 because last_read changed to 1520978444.000331
+info: Mar-13 17:05:04.984 [UNREAD-COUNTS] Updated unread_cnt for D4AFK958V: 1
+info: Mar-13 17:05:04.986 [UNREAD-COUNTS] Fetching history for unread counting: D4AFK958V, waiting 7391 ms
+warn: Mar-13 17:05:04.987 sound is null: new_message window.Audio: function Audio() { [native code] } window.winssb: [object Object] soundManager.ok(): true 'audio/mp3' support: true
+warn: Mar-13 17:05:04.987 Known sound objects by name: b2.mp3, animal_stick.mp3, been_tree.mp3, complete_quest_requirement.mp3, confirm_delivery.mp3, flitterbug.mp3, here_you_go_lighter.mp3, hi_flowers_hit.mp3, knock_brush.mp3, save_and_checkout.mp3, item_pickup.mp3, hummus.mp3, frog.mp3, call/alert_v2.mp3, call/incoming_ring_v2.mp3, call/outgoing_ring_v2.mp3, call/pop_v2.mp3, call/they_left_call_v2.mp3, call/you_left_call_v2.mp3, call/they_joined_call_v2.mp3, call/you_joined_call_v2.mp3, call/confirmation_v2.mp3
+info: Mar-13 17:05:12.378 [HISTORY-FETCH] Fetching history for unread counting: D4AFK958V
+info: Mar-13 17:05:27.107 [INFO] legacyCheckForOldImsToClose might close some. this_too_many:1
+info: Mar-13 17:05:27.108 [INFO] D4C6C84LA Mon Mar 05 2018 20:41:23 GMT-0600 (CST) ms_since_activity:674644108 allow_elapsed_ms:604800000
+info: Mar-13 17:05:27.109 [INFO] G994T6TA8 Tue Mar 06 2018 06:40:51 GMT-0600 (CST) ms_since_activity:638676109 allow_elapsed_ms:604800000
+warn: Mar-13 17:05:27.109 legacyCheckForOldImsToClose CLOSING:D4C6C84LA ms_since_activity:674644108
+info: Mar-13 17:08:26.410 [UNREAD-COUNTS] Counting unreads in D4AFK958V because last_read changed to 1520978704.000370
+info: Mar-13 17:08:26.411 [UNREAD-COUNTS] Updated unread_cnt for D4AFK958V: 0
+info: Mar-13 17:14:37.400 [UNREAD-COUNTS] Updated unread_cnt for G9PBVCAQ4: 1
+warn: Mar-13 17:14:37.427 sound is null: new_message window.Audio: function Audio() { [native code] } window.winssb: [object Object] soundManager.ok(): true 'audio/mp3' support: true
+warn: Mar-13 17:14:37.427 Known sound objects by name: b2.mp3, animal_stick.mp3, been_tree.mp3, complete_quest_requirement.mp3, confirm_delivery.mp3, flitterbug.mp3, here_you_go_lighter.mp3, hi_flowers_hit.mp3, knock_brush.mp3, save_and_checkout.mp3, item_pickup.mp3, hummus.mp3, frog.mp3, call/alert_v2.mp3, call/incoming_ring_v2.mp3, call/outgoing_ring_v2.mp3, call/pop_v2.mp3, call/they_left_call_v2.mp3, call/you_left_call_v2.mp3, call/they_joined_call_v2.mp3, call/you_joined_call_v2.mp3, call/confirmation_v2.mp3
+info: Mar-13 17:14:47.234 [UNREAD-COUNTS] Updated unread_cnt for G9PBVCAQ4: 2
+warn: Mar-13 17:14:47.256 sound is null: new_message window.Audio: function Audio() { [native code] } window.winssb: [object Object] soundManager.ok(): true 'audio/mp3' support: true
+warn: Mar-13 17:14:47.256 Known sound objects by name: b2.mp3, animal_stick.mp3, been_tree.mp3, complete_quest_requirement.mp3, confirm_delivery.mp3, flitterbug.mp3, here_you_go_lighter.mp3, hi_flowers_hit.mp3, knock_brush.mp3, save_and_checkout.mp3, item_pickup.mp3, hummus.mp3, frog.mp3, call/alert_v2.mp3, call/incoming_ring_v2.mp3, call/outgoing_ring_v2.mp3, call/pop_v2.mp3, call/they_left_call_v2.mp3, call/you_left_call_v2.mp3, call/they_joined_call_v2.mp3, call/you_joined_call_v2.mp3, call/confirmation_v2.mp3
+info: Mar-13 17:17:01.486 [UNREAD-COUNTS] Counting unreads in G9PBVCAQ4 because last_read changed to 1520979286.000482
+info: Mar-13 17:17:01.486 [UNREAD-COUNTS] Updated unread_cnt for G9PBVCAQ4: 0
+warn: %cUnhandled rejection Error: Cannot send message; this socket has been closed
+    at e (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.a198a12189c05b5aba0f.min.js:1:1665612)
+    at e (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.a198a12189c05b5aba0f.min.js:1:1610835)
+    at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.a198a12189c05b5aba0f.min.js:1:1560284
+    at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.a198a12189c05b5aba0f.min.js:1:123667
+    at https://a.slack-edge.com/bv1-1/application.69aea5d5a8794c5e3118.min.js:1:2672784
+    at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.a198a12189c05b5aba0f.min.js:1:123667
+    at https://a.slack-edge.com/bv1-1/application.69aea5d5a8794c5e3118.min.js:1:223945
+    at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.a198a12189c05b5aba0f.min.js:1:544414
+    at Object.dispatch (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.a198a12189c05b5aba0f.min.js:1:123667)
+    at Object.n [as dispatch] (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.24a8b197028b3deef0c0.min.js:1:110356)
+    at Object.send (https://a.slack-edge.com/bv1-1/application.69aea5d5a8794c5e3118.min.js:1:1794055)
+    at Object.e [as tickleMS] (https://a.slack-edge.com/bv1-1/rollup-client.6c79cd66b7997e6f4e94.min.js:1:314493)
+    at Object.e [as maybeTickleMS] (https://a.slack-edge.com/bv1-1/rollup-client.6c79cd66b7997e6f4e94.min.js:1:314310)
+    at Object.e [as maybeTickleMS] (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.24a8b197028b3deef0c0.min.js:1:136809)
+    at Object.maybeTickleMS (https://amd-web.slack.com/messages/C4ACUJ2HK:811:11)
+    at window.setInterval (/snap/slack/5/usr/lib/slack/resources/app.asar/src/ssb/setup-idle-tickle.ts:50:19)
+info: Mar-13 19:13:32.558 [T4AA7TJ1G] SOCKET-MANAGER: Changing from connected to error
+info: Mar-13 19:13:32.558 [T4AA7TJ1G] SOCKET-MANAGER: will stay in error state for up to 10000 ms
+error: Mar-13 19:13:32.558 T4AA7TJ1G SOCKET-MANAGER: Closing socket due to unknown error
+info: 2018/3/13 19:13:32.559  Stacktrace: ↴
+ at e (https://a.slack-edge.com/bv1-1/rollup-core_required_ts.24a8b197028b3deef0c0.min.js:1:68449)
+at https://a.slack-edge.com/bv1-1/rollup-core_required_libs.a198a12189c05b5aba0f.min.js:1:1427291
+at e (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.a198a12189c05b5aba0f.min.js:1:1616753)
+at e (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.a198a12189c05b5aba0f.min.js:1:1618674)
+at s (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.a198a12189c05b5aba0f.min.js:1:1562245)
+at e (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.a198a12189c05b5aba0f.min.js:1:1619048)
+at e (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.a198a12189c05b5aba0f.min.js:1:1612633)
+at e.<anonymous> (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.a198a12189c05b5aba0f.min.js:1:1390496)
+at O (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.a198a12189c05b5aba0f.min.js:1:1663490)
+at WebSocket._socket.onclose (https://a.slack-edge.com/bv1-1/rollup-core_required_libs.a198a12189c05b5aba0f.min.js:1:1665181)
+info: Mar-13 19:13:32.560 [INFO] Hiding the reconnection banner because we are disconnected
+info: Mar-13 19:13:32.581 [T4AA7TJ1G] SOCKET-MANAGER: Changing from error to wait_for_connectivity
+info: Mar-13 19:13:32.581 [T4AA7TJ1G] SOCKET-MANAGER: will stay in wait_for_connectivity state for up to 30000 ms
+info: Mar-13 19:13:32.854 [T4AA7TJ1G] SOCKET-MANAGER: Changing from wait_for_connectivity to wait_for_rate_limit
+info: Mar-13 19:13:32.855 [T4AA7TJ1G] SOCKET-MANAGER: will stay in wait_for_rate_limit state for up to 120000 ms
+info: Mar-13 19:13:32.855 [T4AA7TJ1G] SOCKET-MANAGER: Changing from wait_for_rate_limit to connect
+info: Mar-13 19:13:32.855 [T4AA7TJ1G] SOCKET-MANAGER: will stay in connect state for up to 10000 ms
+info: Mar-13 19:13:32.855 [T4AA7TJ1G] SOCKET-MANAGER: Changing from connect to checking_fast_reconnect
+info: Mar-13 19:13:32.855 [T4AA7TJ1G] SOCKET-MANAGER: will stay in checking_fast_reconnect state for up to 60000 ms
+info: Mar-13 19:13:32.856 [T4AA7TJ1G] SOCKET-MANAGER: Changing from checking_fast_reconnect to prov_connect
+info: Mar-13 19:13:32.856 [T4AA7TJ1G] SOCKET-MANAGER: will stay in prov_connect state for up to 10000 ms
+info: Mar-13 19:13:32.856 [T4AA7TJ1G] SOCKET-MANAGER: Changing from prov_connect to prov_connecting
+info: Mar-13 19:13:32.856 [T4AA7TJ1G] SOCKET-MANAGER: will stay in prov_connecting state for up to 35000 ms
+info: Mar-13 19:13:33.912 [T4AA7TJ1G] SOCKET-MANAGER: Changing from prov_connecting to prov_connected
+info: Mar-13 19:13:33.912 [T4AA7TJ1G] SOCKET-MANAGER: will stay in prov_connected state for up to 60000 ms
+info: Mar-13 19:13:33.913 [INFO] Got start data from Socket Manager; hydrating it
+info: Mar-13 19:13:34.107 [INFO] Successfully hydrated start data from Socket Manager; processing it
+warn: Mar-13 19:13:34.107 activity is not scalar! it needs to be handled by upsertTeam specifically to test if it has changed! object
+info: Mar-13 19:13:34.197 [BOOT] _maybeFinalizeOrOpenConnectionToMS will finalize SocketManager
+info: Mar-13 19:13:34.197 [T4AA7TJ1G] SOCKET-MANAGER: Changing from prov_connected to prov_finalize
+info: Mar-13 19:13:34.197 [T4AA7TJ1G] SOCKET-MANAGER: will stay in prov_finalize state for up to 10000 ms
+info: Mar-13 19:13:34.197 [T4AA7TJ1G] SOCKET-MANAGER: Changing from prov_finalize to prov_finalizing
+info: Mar-13 19:13:34.197 [T4AA7TJ1G] SOCKET-MANAGER: will stay in prov_finalizing state for up to 10000 ms
+info: Mar-13 19:13:34.197 [T4AA7TJ1G] SOCKET-MANAGER: Changing from prov_finalizing to connected
+info: Mar-13 19:13:34.197 [T4AA7TJ1G] SOCKET-MANAGER: will stay in connected state for up to Infinity ms
+info: Mar-13 19:13:34.198 [BOOT] _maybeFinalizeOrOpenConnectionToMS did finalize SocketManager
+info: Mar-13 19:13:34.198 [T4AA7TJ1G] EVENTLOG fr=false, lc=false, lt=1520979421.000102
+info: Mar-13 19:13:34.198 [T4AA7TJ1G] EVENTLOG fetching events since 1520979421.000102 (6993.999897956848 seconds ago)
+info: Mar-13 19:13:34.215 [CHECK-UNREADS] unreadLineVisible updated: true -> false
+info: Mar-13 19:13:34.432 [T4AA7TJ1G] EVENTLOG nothing to process
+info: Mar-13 19:13:34.432 [T4AA7TJ1G] EVENTLOG fetched finish (cancelled? false)
+info: Mar-13 19:13:34.432 [T4AA7TJ1G] EVENTLOG dispatching signal and clearing timestamp
+info: Mar-13 19:13:34.536 [UNREAD-COUNTS] Completed users.counts processing

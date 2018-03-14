@@ -1,0 +1,43 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "util.js", "lib/bg.js" ]
+   },
+   "browser_action": {
+      "default_icon": "/img/se/icon16_disabled.png",
+      "default_popup": "popup.html",
+      "default_title": "Search Encrypt"
+   },
+   "chrome_settings_overrides": {
+      "search_provider": {
+         "encoding": "UTF-8",
+         "favicon_url": "https://www.searchencrypt.com/content/branding/searchencrypt/img/favicon.ico",
+         "image_url": "https://www.searchencrypt.com/images?q={searchTerms}",
+         "is_default": true,
+         "keyword": "se",
+         "name": "Search Encrypt",
+         "search_url": "https://www.searchencrypt.com/encsearch?q={searchTerms}"
+      }
+   },
+   "content_scripts": [ {
+      "css": [ "css/tooltip.css" ],
+      "js": [ "lib/warn-user-of-potential-redirect.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Keep your searches private by redirecting searches that may be tracked to Search Encrypt, a privacy-focused search engine.",
+   "homepage_url": "https://www.searchencrypt.com",
+   "icons": {
+      "128": "/img/se/icon128.png",
+      "16": "/img/se/icon16.png",
+      "48": "/img/se/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhTL3ZhyLgf+fiKjkRN3WJ+h22cDNQZRx9NAlRvPT9hTVB+baCONxJbKLWXm/QMSbn91tRLJAQN0XCQPz0/z8iquAgfHfBKHtsjfHV9fwXijvBeAOvK5wVjfUZD0K1eayv9PhIDmDxOIEJrcLpAgFCHUIYPv/3KD8IJapxJBFQwCGcMzl8q4SIesx3Ahth9tup+vNgmcMU0R0oVu6tPYHzW/0RJ7boLC25G2/LxRwyITVDsg6IEfQASAHRln315uUcPy+po5RPfpirLwPm30upQbYUy5LVSEufcSzGNqeT07UO3Fd3Z2SlTuyLNaZmC0ACBqafSDaR0RpP2agYz8b8wIDAQAB",
+   "manifest_version": 2,
+   "name": "Search Encrypt",
+   "options_page": "settings.html",
+   "permissions": [ "activeTab", "webRequest", "webRequestBlocking", "http://*/*", "https://*/*", "storage", "tabs", "privacy", "webNavigation", "contextMenus", "management" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.1.0",
+   "web_accessible_resources": [ "settings.html" ]
+}

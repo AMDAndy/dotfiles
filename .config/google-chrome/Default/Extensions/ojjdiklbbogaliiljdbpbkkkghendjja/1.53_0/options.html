@@ -1,0 +1,86 @@
+<html>
+<head>
+	<title>Status Bar Options</title>
+	<script type="text/javascript" src="jquery-1.4.2.min.js"></script>
+	<script type="text/javascript" src="options.js"></script>
+	<style type="text/css" media="all">
+	input[type=text] {
+		width:300px;
+	}
+	</style>
+	<script type="text/javascript">
+	function populateOptions(options) {
+		if(typeof(options) == 'undefined') {
+			var options = {};
+			options['css'] = ggStatusBar.getCss();
+			options['options'] = ggStatusBar.getOptions();
+		}
+		var optHTML = {};
+		for(var opt in options) {
+			optHTML[opt] = '';
+			optHTML[opt] += '<table>';
+			for(var key in options[opt]) {
+				var val = options[opt][key];
+				optHTML[opt] += '<tr><td>';
+				switch(key) {
+					case 'disable-frames' :
+						optHTML[opt] += '<label for="' + key + '">Disable in child frames</label></td><td>';
+						var checked = '';
+						if(parseInt(val) == 1) {
+							checked = 'checked="checked"';
+						}
+						optHTML[opt] += '<input type="checkbox" id="' + key + '" name="' + key + '" value="' + key + '" ' + checked + '>';
+						break;
+					case 'title-delay' :
+						optHTML[opt] += '<label for="' + key + '">Delay before page Title appears after mousing off a link</label></td><td>';
+						optHTML[opt] += '<input type="text" id="' + key + '" name="' + key + '" value=\'' + val + '\'>';
+						break;
+					default :
+						optHTML[opt] += '<label for="' + key + '">' + key + '</label></td><td>';
+						optHTML[opt] += '<input type="text" id="' + key + '" name="' + key + '" value=\'' + val + '\'>';
+				}
+				optHTML[opt] += '</td></tr>';
+			}
+			optHTML[opt] += '</table>';
+			$('#' + opt).html(optHTML[opt]);
+		}
+	}
+
+	function save() {
+		var pairs = {};
+		$('input[type="text"]').each(function() {
+			pairs[$(this).attr('id')] = $(this).val();
+		});
+		$('input[type="checkbox"]').each(function() {
+			var val = 0;
+			if($(this).is(':checked')) {
+				val = 1;
+			}
+			pairs[$(this).attr('id')] = val;
+		});
+		if(ggStatusBar.saveOptions(pairs)) {
+			alert('Saved!');
+		}
+	}
+
+	function loadDefaults() {
+		populateOptions(ggStatusBar.getDefaults());
+	}
+
+	$(document).ready(function() {
+		populateOptions();
+	});
+	</script>
+</head>
+<body>
+	<p>Thanks for using my <a href="https://chrome.google.com/extensions/detail/ojjdiklbbogaliiljdbpbkkkghendjja" target="_blank">Status Bar</a> extension (I know, it needs a better name).</p>
+	<p>If you'd like additional CSS properties to modify or would like to request other changes, please contact me via <a href="http://grinninggecko.com/" target="_blank">Grinning Gecko</a> (<a href="http://grinninggecko.com/contact/" target="_blank">direct link to contact page</a>).</p>
+	<p>Some basic CSS knowledge is assumed if you want to start changing these values. Do so at your own risk. If you want to exclude a property from the bar, just leave its field blank.</p>
+	<hr>
+	<div id="options"></div>
+	<hr>
+	<div id="css"></div>
+	<button onclick="save();">Save</button>
+	<button onclick="loadDefaults();">Load Defaults</button>
+</body>
+</html>

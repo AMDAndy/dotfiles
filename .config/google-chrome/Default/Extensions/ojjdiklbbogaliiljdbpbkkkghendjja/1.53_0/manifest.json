@@ -1,0 +1,16 @@
+{
+   "background_page": "background.html",
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "jquery-1.4.2.min.js", "options.js", "status_bar.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Status bar to display non-truncated links on mouseover.",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQxuMFPyzsH6rtvPNfKXbya0XzHWg+MMuOjhlVdVB3Cqjb+rLG73cw9PrGGBP+hyLG9iwtpufMHbULqwFtrCT+zMPrbJ6YLoDBP3Etx8LUns1S5HbrTKvIzLx1Rln9lF4kgFxTjAQsZSodhqGqerZmkKhZafiPii4fB/wMEiwkKQIDAQAB",
+   "name": "Status Bar",
+   "options_page": "options.html",
+   "permissions": [ "\u003Call_urls>" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.53"
+}

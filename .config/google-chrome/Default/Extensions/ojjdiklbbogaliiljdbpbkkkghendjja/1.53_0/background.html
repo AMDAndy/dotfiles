@@ -1,0 +1,15 @@
+<html>
+	<script type="text/javascript" src="options.js"></script>
+	<script type="text/javascript">
+	chrome.extension.onRequest.addListener(
+		function(request, sender, sendResponse) {
+			if (request.options == "all") {
+				sendResponse({
+					css:JSON.stringify(ggStatusBar.getCss()),
+					options:JSON.stringify(ggStatusBar.getOptions())
+				});
+			}
+		}
+	);
+	</script>
+</html>
